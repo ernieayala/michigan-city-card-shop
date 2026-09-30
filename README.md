@@ -94,6 +94,12 @@ same site.
 | Opening cost | $64,375 to $198,752 (estimate) | Low; inventory is the cost |
 | Local rules | Second exit likely needed above 49 occupants | City home-occupation zoning bars "retail sales activities" at a home |
 
+## Plan
+
+The [storefront plan](storefront-plan.md) fits a singles-first store with a
+20-seat play area into the $50,000, at the low end of every cost line and with
+five gates to pass before any lease is signed.
+
 ## Research files
 
 | File | Covers | Strongest finding |
