@@ -1,0 +1,54 @@
+title: Michigan City Card Shop
+description: Feasibility research for a trading card store in Michigan City, Indiana
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "View on GitHub": https://github.com/ernieayala/michigan-city-card-shop
+
+# Pages carry no front matter so the files read cleanly on github.com;
+# layout, navigation title and order are set here instead.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: README.md
+    values:
+      title: Overview
+      nav_order: 1
+      permalink: /
+  - scope:
+      path: research/distribution-and-supply.md
+    values:
+      title: Distribution and supply
+      nav_order: 2
+  - scope:
+      path: research/competition.md
+    values:
+      title: Competition
+      nav_order: 3
+  - scope:
+      path: research/storefront-costs-and-demand.md
+    values:
+      title: Storefront costs and demand
+      nav_order: 4
+  - scope:
+      path: research/online-and-legal.md
+    values:
+      title: Online and legal
+      nav_order: 5
+  - scope:
+      path: research/category-and-unit-economics.md
+    values:
+      title: Category and unit economics
+      nav_order: 6
+  - scope:
+      path: research/sports-cards.md
+    values:
+      title: Sports cards
+      nav_order: 7
