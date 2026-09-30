@@ -9,9 +9,9 @@ the publisher locators return. Drive distance runs longer. Treat every distance 
 
 ## What the principal reported
 
-**Finding:** The repo owner reports four things about local competition, recorded here as testimony before any check.
+**Finding:** The owner reports four things about local competition, recorded here as testimony before any check.
 **Confidence:** guess
-**Source:** Repo owner, verbal, relayed through the project coordinator
+**Source:** The owner, verbal
 **Retrieved:** 2026-09-30
 
 1. A comic book shop in Michigan City carries a small TCG selection: some Pokémon, some One Piece, a few boxes at most.
@@ -24,7 +24,7 @@ Results of the checks below:
 | Claim | Status | Basis |
 |-------|--------|-------|
 | 1. Michigan City comic shop, small TCG selection | Consistent, not verified | The only comic shop found is Heroes Haven Comics & Games. Its own site and listings describe comics, Magic, HeroClix, Warhammer. No publisher locator lists it. Pokémon and One Piece stock depth not checkable online |
-| 2. New Buffalo sports shop, some Pokémon, 50-80% over market | Shop exists and is sports-first; price claim not verified | The Sports Card Shop, 18853 US Hwy 12, New Buffalo, MI. Its site blocks automated retrieval, so no prices were read |
+| 2. New Buffalo sports shop, some Pokémon, 50-80% over market | Shop exists and is sports-first; price claim not verified | The shop's site blocks automated retrieval, so no prices were read |
 | 3. La Porte shops about 20% over market | Not verified | Neither La Porte card shop publishes a price list found online |
 | 4. La Porte shops are the next nearest | Contradicted in part | Reliquary Gaming in Chesterton is 11.0 mi, the same distance as High Heat in La Porte (11.0 mi), and runs more organized play than either La Porte shop |
 

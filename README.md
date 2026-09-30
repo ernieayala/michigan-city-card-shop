@@ -110,8 +110,8 @@ same site.
 | Observation | Result |
 |-------------|--------|
 | A Michigan City comic shop carries a few boxes of Pokémon and One Piece | Consistent. Heroes Haven Comics & Games is the only comic shop found; no publisher locator lists it. Stock depth unchecked |
-| A sports card shop near New Buffalo prices 50% to 80% above market | Shop confirmed: The Sports Card Shop, 18853 US Hwy 12. Prices not retrievable online |
-| La Porte shops price about 20% above market | Not verified. Neither publishes prices. A shop without allocation has to charge about this much to earn 24% on secondary-sourced product, so the markup may reflect cost, not greed (estimate) |
+| A sports card shop near New Buffalo prices 50% to 80% above market | Not verified. A sports-first shop exists there; its site blocks automated retrieval, so no prices were read |
+| La Porte shops price about 20% above market | Not verified. Neither publishes prices. A shop without allocation has to charge about this much to earn 24% on secondary-sourced product, so the markup may reflect cost rather than extra margin (estimate) |
 | La Porte is the next nearest option | Contradicted in part. Reliquary Gaming in Chesterton is the same distance and runs the most posted events |
 
 ## Open questions, ranked by how much they move the answer
