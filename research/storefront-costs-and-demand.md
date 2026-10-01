@@ -1,20 +1,21 @@
 # Storefront Costs and Local Demand: TCG and Sports Card Store
 
-> Last updated: 2026-09-30
+> Last updated: 2026-10-01
 > Scope: who buys, how much space, what it costs to open and run. Sports-card
 > distribution and the card market itself sit in [sports-cards.md](sports-cards.md)
 > and [category-and-unit-economics.md](category-and-unit-economics.md), not here.
 
-**Headline, pessimistic first.** Opening costs run $64,400 to $198,800
-(estimate, table below), and guesses make up $33,600 to $114,900 of that. A
+**Headline, pessimistic first.** Opening costs run $64,200 to $198,800
+(estimate, table below), and guesses make up $33,600 to $118,900 of that. A
 Michigan City card store would not open into an empty market: a comic and game
-shop (Heroes Haven, 296 E US Hwy 20) and a video game store (Game Changers,
+shop (Heroes Haven, 296-A E US Hwy 20) and a video game store (Game Changers,
 4303 Franklin St) already trade in town, and a card show with 100+ tables runs
 monthly at the FOP lodge. Neither store appears on a publisher store locator
 ([competition.md](competition.md)). The resident youth base in the core trade
 area comes to about 5,500 children aged 8 to 17 (estimate). Rent is the one line
-that came in cheaper than the froyo work feared: existing small inline space
-asks $6.50 to $12.00/sqft/yr.
+that came in cheaper than the earlier frozen-yogurt study feared: existing small
+inline space asks $6.50 to $10.00/sqft/yr on available listings; a $12.00 ask
+went under contract in 2025.
 
 ---
 
@@ -31,10 +32,12 @@ estimates (release `acs2024_5yr`), tables B01001 (sex by age), B11005
 (households with people under 18), B19013 (median household income), B26001
 (group quarters). Retrieved through the Census Reporter API, which republishes
 ACS tables cell for cell:
-https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01001,B19013,B11005,B01003&geo_ids=16000US1848798,05000US18091,05000US26021
+<https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01001,B19013,B11005,B01003&geo_ids=16000US1848798,05000US18091,05000US26021>
 and
-https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01001,B19013,B11005&geo_ids=86000US46360,86000US49117,86000US49128,86000US46350,16000US2657220
-. The data.census.gov API (api.census.gov) refused the request without an API
+<https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01001,B19013,B11005&geo_ids=86000US46360,86000US49117,86000US49128,86000US46350,16000US2657220>
+; group quarters:
+<https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B26001&geo_ids=16000US1848798,05000US18091,86000US46360>
+(Michigan City 2,843; LaPorte County 6,878; ZCTA 46360 2,854). The data.census.gov API (api.census.gov) refused the request without an API
 key, so the figures did not come from census.gov directly.
 **Retrieved:** 2026-09-30
 
@@ -56,7 +59,7 @@ key, so the figures did not come from census.gov directly.
 sums ACS brackets 18-19 through 35-39; ACS has no 40 cut, so "18-40" here means
 18-39.
 
-**Cross-check against [froyo research/market-demographics.md](https://github.com/ernieayala/froyo/blob/main/research/market-demographics.md).** That file carried
+**Cross-check against the earlier frozen-yogurt study ([market-demographics.md](https://github.com/ernieayala/froyo/blob/main/research/market-demographics.md)).** That file carried
 31,814 residents and $53,089 median income as `sourced` from aggregators
 (retrieved 2026-08-04). ACS 2024 5-year returns the same 31,814 and $53,089, so the two figures
 now trace to the primary table.
@@ -68,7 +71,7 @@ City sits in the thinner half of its own county for the youth segment.
 
 **The New Buffalo side adds little.** ZCTAs 49117 and 49128 add 6,808 residents
 and 622 children aged 8-17. Median age in New Buffalo city is 54.5 (Census
-Reporter profile, https://censusreporter.org/profiles/16000US2657220-new-buffalo-mi/,
+Reporter profile, <https://censusreporter.org/profiles/16000US2657220-new-buffalo-mi/>,
 retrieved 2026-09-30). This is a retiree and second-home area, not a youth
 market.
 
@@ -94,9 +97,9 @@ and both are older than 18 months.
 
 **Confidence:** sourced, stale
 **Source:** CivicScience, "Are Sports Cards Making a Comeback?", 2021-05-11,
-https://civicscience.com/are-sports-cards-making-a-comeback/ ; The Setonian
+<https://civicscience.com/are-sports-cards-making-a-comeback/> ; The Setonian
 (Seton Hall student paper) reporting the Seton Hall Sports Poll, 2024-05-02,
-https://www.thesetonian.com/article/2024/05/sports-memorabilia-and-collecting
+<https://www.thesetonian.com/article/2024/05/sports-memorabilia-and-collecting>
 **Retrieved:** 2026-09-30
 
 - CivicScience: "those ages 18 to 24 are much more likely than people 25 and
@@ -111,7 +114,7 @@ https://www.thesetonian.com/article/2024/05/sports-memorabilia-and-collecting
 
 Pages that report "65% of collectors are 18-35" and "62% male" trace to market
 research resellers and blog aggregators with no methodology. Excluded under
-the source rules.
+the evidence rules on the overview page.
 
 **Local adult male base (the proxy we can count):** men aged 18-24 and 25-54 in
 the core trade area are 2,272 and 9,997 (ACS B01001, 46360 + 49117 + 49128).
@@ -121,7 +124,7 @@ Subtract up to 2,854 group-quarters residents in 46360 from the adult figure.
 online. The Michigan City Card and Pokemon Show at FOP Lodge #75, 416 US-20,
 lists "100+ tables" for its 2026-10-17 date and another on 2026-12-12, with
 "vendor tables featuring Pokemon and sports cards"
-(https://www.treasurehunter.show/show/the-michigan-city-card-and-pokemon-show-michigan-city-in-2026-12-12,
+(<https://www.treasurehunter.show/show/the-michigan-city-card-and-pokemon-show-michigan-city-in-2026-12-12>,
 retrieved 2026-09-30, `sourced`). That shows local buyers exist. It also shows
 they already have a recurring channel where 100 dealers compete on price, which
 caps what a store can charge for boxes and singles on show weekends.
@@ -139,15 +142,15 @@ events.
 found. The reasoning is structural, not measured.
 **Source:** Structure of event play as described by the operators themselves:
 NWI Cards lists "weekly locals, tournaments, prereleases"
-(https://www.nwicards.com/pages/visit, retrieved 2026-09-30). Tourism context:
-[froyo research/tourism-seasonality.md](https://github.com/ernieayala/froyo/blob/main/research/tourism-seasonality.md) (NPS annual visits, 2,629,497 in CY 2025,
+(<https://www.nwicards.com/pages/visit>, retrieved 2026-09-30). Tourism context:
+the earlier frozen-yogurt study ([tourism-seasonality.md](https://github.com/ernieayala/froyo/blob/main/research/tourism-seasonality.md)) (NPS annual visits, 2,629,497 in CY 2025,
 retrieved 2026-08-04, `fact`).
 **Retrieved:** 2026-09-30
 
-This inverts the froyo problem. The froyo model feared February because tourists
-leave. A card store's demand base stays in town all year, so its seasonality
-risk is smaller, and its ceiling is set by 50,625 residents with a $59,266
-median household income rather than by 2.6 million park visits.
+A frozen-yogurt shop fears February because tourists leave. A card store's
+demand base stays in town all year, so its seasonality risk is smaller, and its
+ceiling is set by 50,625 residents (46360's median household income is $59,266)
+rather than by 2.6 million park visits.
 
 **Disconfirming check:** What would make tourism matter? Family visitors buying
 packs as a rainy-day activity, and second-home owners in 49117 buying
@@ -166,16 +169,16 @@ figure was found for any year after 2016.
 **Confidence:** sourced
 **Source:** WBIW, "Purdue reports enrollment growth, higher graduation and
 retention rates," 2026-09-28,
-https://www.wbiw.com/2026/09/28/purdue-reports-enrollment-growth-higher-graduation-and-retention-rates/
+<https://www.wbiw.com/2026/09/28/purdue-reports-enrollment-growth-higher-graduation-and-retention-rates/>
 (6,103); fall 2025 figure of 6,522 via Northwest Indiana Business Magazine,
-https://nwindianabusiness.com/community/education/purdue-northwest-reports-strong-enrollment-numbers/67275/
+<https://nwindianabusiness.com/community/education/purdue-northwest-reports-strong-enrollment-numbers/67275/>
 (search result summary, page not fetched)
 **Retrieved:** 2026-09-30
 
 Two campuses (Hammond, Westville) share the 6,103, and online students are in
 it. The only campus split found, 6,092 at Westville against 9,194 at Hammond,
 dates to the 2016 merger and is stale. A 2024 HomeTownNewsNow article reported
-9,051 total (https://hometownnewsnow.com/local-news/761065/pnw-reports-higher-fall-semester-enrollment,
+9,051 total (<https://hometownnewsnow.com/local-news/761065/pnw-reports-higher-fall-semester-enrollment>,
 2024-09-20), which likely counts dual-credit high school students; the two
 series are not comparable.
 
@@ -199,13 +202,13 @@ the retail occupancy rather than as a separate assembly occupancy.
 benchmarks (`sourced`, stale)
 **Source:** Indiana Building Code 2014 (2012 IBC with Indiana amendments, 675
 IAC 13-2.6, effective 2014-12-01, still the current adopted edition per Indiana
-DHS, https://www.in.gov/dhs/boards-and-commissions/fpbsc-rules); Table 1004.1.2
-via https://up.codes/viewer/indiana/ibc-2012/chapter/10/means-of-egress ;
+DHS, <https://www.in.gov/dhs/boards-and-commissions/fpbsc-rules>); Table 1004.1.2
+via <https://up.codes/viewer/indiana/ibc-2012/chapter/10/means-of-egress> ;
 Section 303.1.2 via
-https://up.codes/viewer/indiana/ibc-2012/chapter/3/use-and-occupancy-classification
+<https://up.codes/viewer/indiana/ibc-2012/chapter/3/use-and-occupancy-classification>
 (search-result summary; section text not fetched); ICv2, "Ins and Outs of
 In-Store Gaming, Part II," 2002-05-21,
-https://icv2.com/articles/games/view/1433/ins-outs-in-store-gaming-part-ii
+<https://icv2.com/articles/games/view/1433/ins-outs-in-store-gaming-part-ii>
 **Retrieved:** 2026-09-30
 
 **Code facts:**
@@ -248,7 +251,8 @@ class. A larger event hall is a different building and a different rent.
 
 ## 6. What does that space rent for in Michigan City?
 
-**Finding:** Existing small inline retail asks $6.50 to $12.00/sqft/yr; new or
+**Finding:** Existing small inline retail asks $6.50 to $10.00/sqft/yr on
+available listings (a $12.00 ask went under contract in 2025); new or
 large Franklin Street south-end space asks $19 to $21. For 1,200-1,500 sq ft
 the all-in estimate is $1,000 to $2,125 per month.
 
@@ -265,17 +269,17 @@ listing page, each fetched directly.
 
 | Address | Space | Asking | Monthly base | Terms | Source (retrieved 2026-09-30) |
 |---------|------:|-------:|-------------:|-------|-------------------------------|
-| 1601 Franklin St, Unit C | 858 sf | $6.50/sf/yr | $465 | 3-5 yr; lease type not stated | https://properties.zoomprospector.com/northwestin/property/1601-Franklin-St-Michigan-City-Indiana/FC96A191-E96A-42F9-964F-3A48A97E9E80 (updated 2026-06-25) |
+| 1601 Franklin St, Unit C | 858 sf | $6.50/sf/yr | $465 | 3-5 yr; lease type not stated | <https://properties.zoomprospector.com/northwestin/property/1601-Franklin-St-Michigan-City-Indiana/FC96A191-E96A-42F9-964F-3A48A97E9E80> (updated 2026-06-25) |
 | 1601 Franklin St, Suite 1603 | 1,370 sf | $7.00/sf/yr | $799 | negotiable term | same |
-| 3200 Franklin St (Park and Shop), Suite 3231-B | 3,000 sf | $10.00/sf/yr | $2,500 | NNN, 3-5 yr; Bradley Co. 219-508-0554 | https://properties.zoomprospector.com/wvpa/property/3200-Franklin-St-Michigan-City-Indiana/9E861EE5-D2E4-4CE8-88FD-B8BADE6A1C3E (updated 2026-06-25) |
+| 3200 Franklin St (Park and Shop), Suite 3231-B | 3,000 sf | $10.00/sf/yr | $2,500 | NNN, 3-5 yr; Bradley Co. 219-508-0554 | <https://properties.zoomprospector.com/wvpa/property/3200-Franklin-St-Michigan-City-Indiana/9E861EE5-D2E4-4CE8-88FD-B8BADE6A1C3E> (updated 2026-06-25) |
 | 3200 Franklin St, Suite 3221 | 5,756 sf | $9.75/sf/yr | $4,677 | NNN, 3-5 yr | same |
-| 720 Franklin St (Uptown Arts District) | 2,800 sf | $12.00/sf/yr | $2,800 | tenant pays electric and gas; **pending under contract since 2025-10-01, off market** | https://www.bhhsnorthernindianarealestate.com/commercial/gni/824208/720-franklin-street-michigan-city-in-46360 |
-| 5510 Franklin St | 12,000 sf | $19.00/sf/yr | $19,000 | not stated | https://www.commercialsearch.com/commercial-real-estate/us/in/michigan-city/retail/ |
+| 720 Franklin St (Uptown Arts District) | 2,800 sf | $12.00/sf/yr | $2,800 | tenant pays electric and gas; **pending under contract since 2025-10-01, off market** | <https://www.bhhsnorthernindianarealestate.com/commercial/gni/824208/720-franklin-street-michigan-city-in-46360> |
+| 5510 Franklin St | 12,000 sf | $19.00/sf/yr | $19,000 | not stated | <https://www.commercialsearch.com/commercial-real-estate/us/in/michigan-city/retail/> |
 | 5172 Franklin St | 8,000 sf | $14,000/mo ($21.00/sf/yr) | $14,000 | not stated | same |
-| 4301 Franklin St (Lake Park Plaza) | 1,400-15,000 sf | price on request | | EDC contact Clarence Hulse 219-873-1211 | https://properties.zoomprospector.com/northwestin/property/4301-Franklin-St--Michigan-City-Indiana/DECD70DF-62B4-45EA-9E83-5C3A436420BA (updated 2026-01-02) |
+| 4301 Franklin St (Lake Park Plaza) | 1,400-15,000 sf | price on request | | EDC contact Clarence Hulse 219-873-1211 | <https://properties.zoomprospector.com/northwestin/property/4301-Franklin-St--Michigan-City-Indiana/DECD70DF-62B4-45EA-9E83-5C3A436420BA> (updated 2026-01-02) |
 | 5330 Franklin St | 1,360 sf | price on request | | | CommercialSearch, as above |
 
-**Comparison with [froyo research/operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md).** That file recorded LoopNet's
+**Comparison with the earlier frozen-yogurt study ([operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md)).** That file recorded LoopNet's
 $9.67/sqft average for Michigan City retail (retrieved 2026-08-04) as a `guess`,
 on the grounds that a pool dominated by large boxes misstates small-space rent.
 The direct listings show older small inline space asking $6.50 to $12.00, which
@@ -302,20 +306,20 @@ siting question to decide on purpose, not by default.
 
 ---
 
-## 7. Which froyo cost lines drop out?
+## 7. Which cost lines from a food business drop out?
 
 **Finding:** A card store is mercantile (group M) retail with no food service.
-It removes the food-specific lines from the froyo checklist and adds security
-and inventory-insurance lines the froyo work never needed.
+It removes the food-specific lines from the earlier frozen-yogurt study's cost
+checklist and adds security and inventory-insurance lines a food shop does not
+need.
 
 **Confidence:** estimate (classification reasoning), with the dropped lines
-taken from [froyo research/regulatory-and-tax.md](https://github.com/ernieayala/froyo/blob/main/research/regulatory-and-tax.md) and the froyo project [CLAUDE.md](https://github.com/ernieayala/froyo/blob/main/CLAUDE.md) cost
-checklist
-**Source:** [froyo research/regulatory-and-tax.md](https://github.com/ernieayala/froyo/blob/main/research/regulatory-and-tax.md) (retrieved 2026-08-04);
-[froyo research/transit-and-development.md](https://github.com/ernieayala/froyo/blob/main/research/transit-and-development.md)
+taken from the frozen-yogurt study's [regulatory-and-tax.md](https://github.com/ernieayala/froyo/blob/main/research/regulatory-and-tax.md) and its [cost checklist](https://github.com/ernieayala/froyo/blob/main/CLAUDE.md)
+**Source:** frozen-yogurt study, [regulatory-and-tax.md](https://github.com/ernieayala/froyo/blob/main/research/regulatory-and-tax.md) (retrieved 2026-08-04);
+[transit-and-development.md](https://github.com/ernieayala/froyo/blob/main/research/transit-and-development.md)
 **Retrieved:** 2026-09-30
 
-| Froyo line | Card store |
+| Frozen-yogurt study line | Card store |
 |------------|-----------|
 | LaPorte County Food Service License and health plan review | Drops out. No food served |
 | Grease interceptor, floor drains | Drops out |
@@ -326,16 +330,16 @@ checklist
 | Mop sink | May remain. Plumbing fixture tables can require a service sink in mercantile space; ask the building department |
 | ADA restroom, building permit, sign permit, CAM, POS, processing, insurance, workers comp | All remain |
 | Prepared-food tax question (county food and beverage tax) | Drops out. Card sales carry Indiana's 7% state sales tax only |
-| Personal property tax on equipment | Exempt: Indiana exempts business personal property under $2,000,000 acquisition cost per county from the 2026 assessment date (DLGF memo, 2025-05-23, https://www.in.gov/dlgf/files/2025-memos/250523-Cockerill-Memo-Legislation-Affecting-Assessment-Matters.pdf, `fact`) |
-| New: burglary-rated security, inventory insurance limits | Added. See section 9 |
+| Personal property tax on equipment | Exempt: Indiana exempts business personal property under $2,000,000 acquisition cost per county from the 2026 assessment date (DLGF memo, 2025-05-23, <https://www.in.gov/dlgf/files/2025-memos/250523-Cockerill-Memo-Legislation-Affecting-Assessment-Matters.pdf>, `fact`) |
+| New: burglary-rated security, inventory insurance limits | Added. See section 10 |
 
 ---
 
 ## 8. Startup cost
 
-**Finding:** $64,400 to $198,800 to open, including six months of fixed
+**Finding:** $64,200 to $198,800 to open, including six months of fixed
 operating costs as working capital. Guess-tier lines account for $33,600 to
-$114,900 of it.
+$118,900 of it.
 
 **Confidence:** estimate; individual lines tiered in the table
 **Source:** see table
@@ -345,42 +349,43 @@ $114,900 of it.
 |-----------|----:|-----:|--------|-----------|
 | Security deposit and first month rent (2 months all-in) | $2,000 | $4,250 | Rent band, section 6 | estimate |
 | Build-out: paint, lighting, flooring, electrical for play area, ADA restroom fixes | $5,000 | $25,000 | None. A contractor walk-through of a chosen bay replaces it. ADA restroom retrofit drives the high end | guess |
-| Locking display counters (4 low, 8 high) and locking wall cases (2 low, 4 high) | $3,915 | $8,312 | Counter: ShopPOP 70 x 20 x 38 in full-vision counter with locks, $623.69 (1-3), $589.04 (4+), https://www.shoppopdisplays.com/18592/full-vision-glass-display-counter-black-70l-x-20w-x-38h.html . Wall case: Uline H-2805 Clear-View cabinet, 3-point lock, $710 unassembled, $900 assembled, https://www.uline.com/BL_3939/Clear-View-Cabinets . Freight excluded | estimate |
-| Play tables, 72 x 30 in (4 low, 7 high) | $1,120 | $1,960 | Uline H-2229A deluxe folding table, $280 each, https://www.uline.com/BL_3988/Deluxe-Folding-Tables | estimate |
+| Locking display counters (4 low, 8 high) and locking wall cases (2 low, 4 high) | $3,776 | $8,312 | Counter: ShopPOP 70 x 20 x 38 in full-vision counter with locks, $623.69 (1-3), $589.04 (4+), <https://www.shoppopdisplays.com/18592/full-vision-glass-display-counter-black-70l-x-20w-x-38h.html> . Wall case: Uline H-2805 Clear-View cabinet, 3-point lock, $710 unassembled, $900 assembled, <https://www.uline.com/BL_3939/Clear-View-Cabinets> . Freight excluded | estimate |
+| Play tables, 72 x 30 in (4 low, 7 high) | $1,120 | $1,960 | Uline H-2229A deluxe folding table, $280 each, <https://www.uline.com/BL_3988/Deluxe-Folding-Tables> | estimate |
 | Chairs (20 at $30, 40 at $60) | $600 | $2,400 | No chair price retrieved | guess |
 | Shelving, slatwall, checkout counter, supplies wall | $2,000 | $6,000 | None | guess |
 | POS hardware (terminal, tablet, printer, scanner, cash drawer) | $800 | $2,000 | None retrieved. A Square or Shopify hardware quote replaces it | guess |
 | Security: camera system, monitored alarm install, safe, window protection | $1,300 | $11,500 | None. Two alarm-company quotes replace it. Roll-down grille or security film drives the high end | guess |
 | Exterior sign | $1,500 | $8,000 | None. A sign shop quote replaces it | guess |
-| Indiana LLC Articles of Organization and Registered Retail Merchant Certificate | $125 | $125 | $100 filing fee, State Form 49459 (R12/01-26), https://forms.in.gov/Download.aspx?id=16989 ; $25 per location RRMC, valid two years, IN DOR New and Small Business Owners guide, https://www.in.gov/dor/files/new-small-business-handbook.pdf | fact |
+| Indiana LLC Articles of Organization and Registered Retail Merchant Certificate | $125 | $125 | $100 filing fee, State Form 49459 (R12/01-26), <https://forms.in.gov/Download.aspx?id=16989> ; $25 per location RRMC, valid two years, IN DOR New and Small Business Owners guide, <https://www.in.gov/dor/files/new-small-business-handbook.pdf> | fact |
 | Michigan City building, occupancy and sign permits, business registration | $200 | $1,500 | Fee schedule not published on the city site; Municode Chapter 50 did not render. Building dept 219-873-1417 | guess |
-| Insurance, first-year premium (BOP with inventory, liability) | $1,136 | $4,000 | Low: Insureon median retail BOP $95/mo, $1,136/yr, updated 2025-01-03, https://www.insureon.com/retail-business-insurance/cost . High: guess for inventory limits of $50k+ in a theft-targeted category | sourced (low), guess (high) |
+| Insurance, first-year premium (BOP with inventory, liability) | $1,136 | $4,000 | Low: Insureon median retail BOP $95/mo, $1,136/yr ($94.67/mo; $95 x 12 = $1,140), updated 2025-01-03, <https://www.insureon.com/retail-business-insurance/cost> . High: guess for inventory limits of $50k+ in a theft-targeted category | sourced (low), guess (high) |
 | Utility deposits | $200 | $1,000 | None | guess |
 | Opening TCG inventory: sealed Pokémon, Magic, One Piece, Lorcana, singles, sleeves and supplies | $20,000 | $50,000 | None in this file. Distribution terms sit in [distribution-and-supply.md](distribution-and-supply.md) | guess |
-| Opening sports-card inventory: 10 SKUs x 2 boxes x $100 low; 25 SKUs x 4 boxes x $300 high | $2,000 | $30,000 | Unit prices below; SKU and depth counts are guesses | estimate |
+| Opening sports-card inventory: 10 SKUs x 2 boxes x $100 low; 25 SKUs x 4 boxes x $300 high | $2,000 | $30,000 | Unit prices below are Topps consumer presale prices; a store without a Topps account buys at secondary prices, e.g. $209.95 for a $99.99 hobby box ([sports-cards.md](sports-cards.md)). SKU and depth counts are guesses | estimate |
 | Pre-opening payroll and training | $1,000 | $3,000 | None | guess |
 | Accountant and lease review | $500 | $2,500 | None | guess |
 | Opening marketing | $500 | $2,000 | None | guess |
 | Working capital: 6 months of fixed operating cost | $20,479 | $35,205 | Monthly fixed cost below x 6 | estimate |
-| **Total** | **$64,375** | **$198,752** | | estimate |
-| Of which guess-tier lines | $33,600 | $114,900 | | |
-| Total before working capital | $43,896 | $163,547 | | |
+| **Total** | **$64,236** | **$198,752** | | estimate |
+| Of which guess-tier lines | $33,600 | $118,900 | | |
+| Total before working capital | $43,757 | $163,547 | | |
 
 **Guess lines:** build-out, chairs, shelving and fixtures, POS hardware,
 security, signage, city permits, utility deposits, TCG inventory, pre-opening
 payroll, professional fees, marketing, and the high end of insurance. Guesses
-make up 52% of the low total and 58% of the high total. The two largest are TCG
+make up 52% of the low total and 60% of the high total. The two largest are TCG
 inventory and build-out.
 
 **Sports-card box prices (unit inputs to the inventory line):**
 - 2026 Topps Series 1 Baseball, Topps presale 2026-01-13: hobby $99.99, jumbo
   $199.99, mega $49.99, value blaster $24.99. Source: Checklist Insider,
-  https://www.checklistinsider.com/2026-topps-series-1-baseball . `sourced`.
+  <https://www.checklistinsider.com/2026-topps-series-1-baseball> . `sourced`.
   A search-result summary showed Blowout Cards at $209.95 and Best Buy at
-  $279.99 for the same hobby box after release (pages not fetched).
+  $279.99 for the same hobby box after release (pages not fetched); another
+  summary attributed $209.95 to DA Card World ([sports-cards.md](sports-cards.md)).
 - 2025 Bowman Chrome Baseball hobby box, Topps presale 2025-08-11: $289.99;
   12-box case $3,359.99. Source: Baseball America, 2025-08-08, updated
-  2025-08-28, https://www.baseballamerica.com/stories/2025-bowman-chrome-preorder-begins-monday-aug-11/ .
+  2025-08-28, <https://www.baseballamerica.com/stories/2025-bowman-chrome-preorder-begins-monday-aug-11/> .
   `sourced`.
 - These are consumer presale prices from Topps. A store's wholesale cost through
   a distributor is a separate figure, covered in [sports-cards.md](sports-cards.md).
@@ -402,11 +407,13 @@ inventory and build-out.
 | Workers comp | $86 | $86 | Insureon retail median $86/mo, as above | sourced |
 | **Total** | **$3,413** | **$5,867** | | estimate |
 
+Totals use unrounded rows ($3,413.18 low, $5,867.43 high).
+
 Owner pay and owner health insurance are excluded. Neither is optional for
 the owner; they are left out because no figure exists yet.
 
-**Disconfirming check: what line is missing?** Against the project cost
-checklist: merchant processing (2.4% to 2.6% + 15¢ on Square, 2.5% to 2.6% +
+**Disconfirming check: what line is missing?** Against the frozen-yogurt study's
+cost checklist: merchant processing (2.4% to 2.6% + 15¢ on Square, 2.5% to 2.6% +
 10¢ on Shopify) is a variable cost and belongs in the P&L, not here. Loan
 interest is absent because financing is undecided. Organized-play kits and
 prerelease product are inventory purchases tied to each release and are not in
@@ -427,11 +434,11 @@ costs $0 to $149/mo. BinderPOS has paused new sign-ups.
 
 | System | Monthly | Setup | Transaction fees | Status | Source |
 |--------|--------:|------:|------------------|--------|--------|
-| BinderPOS (TCGplayer) | $100 (Binder), $150 (Binder Pro) | 2-4 week onboarding | 2% on own-website sales; 2.5% on TCGplayer integration sales; requires Shopify | **"we are pausing new seller onboarding and sign-ups"** (waitlist) | https://seller.tcgplayer.com/point-of-sale (binderpos.com redirects here) |
-| CrystalCommerce Professional | $99 | $599 list, "$0.99 option" shown | 2.5% online; 0% POS and buylist | open | https://www.crystalcommerce.com/pricing/ |
-| Square for Retail | $0 Free, $49 Plus, $149 Premium, per location | | in person 2.6% + 15¢ (Free), 2.5% + 15¢ (Plus), 2.4% + 15¢ (Premium) | open | https://squareup.com/us/en/pricing (price table read from page source) |
-| Shopify POS Pro | $89 per location, billed yearly, on top of Basic $39 or Grow $105 | | in person 2.6% + 10¢ (Basic), 2.5% + 10¢ (Grow) | open | https://www.shopify.com/pos/pricing |
-| TCGplayer Pro | Search summaries report no monthly fee and a 2.5% fee on shipped online sales | | | | help.tcgplayer.com returned 403; not verified |
+| BinderPOS (TCGplayer) | $100 (Binder), $150 (Binder Pro) | 2-4 week onboarding | 2% on own-website sales; 2.5% on TCGplayer integration sales; requires Shopify | **"we are pausing new seller onboarding and sign-ups"** (waitlist) | <https://seller.tcgplayer.com/point-of-sale> (binderpos.com redirects here) |
+| CrystalCommerce Professional | $99 | $599 list, "$0.99 option" shown | 2.5% online; 0% POS and buylist | open | <https://www.crystalcommerce.com/pricing/> |
+| Square for Retail | $0 Free, $49 Plus, $149 Premium, per location | | in person 2.6% + 15¢ (Free), 2.5% + 15¢ (Plus), 2.4% + 15¢ (Premium) | open | <https://squareup.com/us/en/pricing> (price table read from page source) |
+| Shopify POS Pro | $89 per location, billed yearly, on top of Basic $39 or Grow $105 | | in person 2.6% + 10¢ (Basic), 2.5% + 10¢ (Grow) | open | <https://www.shopify.com/pos/pricing> |
+| TCGplayer Pro | $0: "no contract, no monthly payment, and no startup cost" | none | Shipped Pro website sale: 2.5% Pro fee and 2.5% + $0.30 transaction fee | Requires Level 4 | [online-and-legal.md](online-and-legal.md), section 1.1 (help center read through its JSON endpoint) |
 
 **Disconfirming check:** The card-specific systems earn their fee through
 singles pricing and marketplace sync. A store that sells mostly sealed product
@@ -445,8 +452,8 @@ stores today.
 
 **Finding:** Yes. Card stores in Indiana and the region are burglary and
 distraction-theft targets, with losses from $5,000 to $340,000 per incident. The
-nearest documented case is in Chesterton, about 13 miles west (distance
-`guess`).
+nearest documented case is in Chesterton, 11.0 miles straight-line
+([competition.md](competition.md), estimate).
 
 **Confidence:** sourced (local news)
 **Source:** see list
@@ -455,17 +462,17 @@ nearest documented case is in Chesterton, about 13 miles west (distance
 - **Chesterton, IN, Reliquary Gaming, 1500 block S Calumet Rd.** Three people
   asked to browse a Magic: The Gathering binder; two distracted staff while the
   third bagged it. Value about $5,000. Date reported as 2023-11-29. WGN,
-  https://wgntv.com/northwest-indiana/police-search-for-group-spotted-stealing-5k-worth-of-trading-cards-from-chesterton-game-shop/
+  <https://wgntv.com/northwest-indiana/police-search-for-group-spotted-stealing-5k-worth-of-trading-cards-from-chesterton-game-shop/>
   returned 403; details come from the search-result summary of that article.
   The Chesterton Tribune copy now redirects to an unrelated site.
 - **Indianapolis, Grandmaster Games, 4200 S East St, 2026-05-08, about 5:45am.**
   Break-in; the masked suspect went for display cases, skipped the registers,
   and took graded slabs worth $10,000 to $15,000. WRTV,
-  https://www.wrtv.com/news/local-news/crime/thieves-steal-15k-in-pokemon-trading-cards-from-south-side-indianapolis-shop
+  <https://www.wrtv.com/news/local-news/crime/thieves-steal-15k-in-pokemon-trading-cards-from-south-side-indianapolis-shop>
 - **Twin Lakes, WI (Kenosha County), Goldenrod City Collectibles, 2026-08-10.**
   Window smashed at about 2am; four people took at least $340,000 in under five
   minutes. FOX6,
-  https://www.fox6now.com/news/twin-lakes-card-store-burglary-pokemon-cards-among-340k-stolen .
+  <https://www.fox6now.com/news/twin-lakes-card-store-burglary-pokemon-cards-among-340k-stolen> .
   This is about 90 miles from Michigan City, not in Michiana; it is here for the
   loss size.
 
@@ -499,10 +506,10 @@ hours a week in a one-employee store that runs evening events.
 Michigan City-La Porte MSA (area 33140), via the BLS Public Data API, series
 OEUM003314000000041203101 (employment), ...03 (mean hourly), ...08 (median
 hourly), ...06 (10th pct), ...07 (25th pct), and 41201101/41201103/41201108
-for cashiers; https://api.bls.gov/publicAPI/v2/timeseries/data/ . Release:
+for cashiers; <https://api.bls.gov/publicAPI/v2/timeseries/data/> . Release:
 BLS Midwest Information Office, "Occupational Employment and Wages in Michigan
 City-La Porte, May 2025," released Friday 2026-07-10,
-https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_michigancity.htm
+<https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_michigancity.htm>
 **Retrieved:** 2026-09-30
 
 | Occupation, May 2025 | Employment | 10th pct | 25th pct | Median | Mean |
@@ -513,15 +520,15 @@ https://www.bls.gov/regions/midwest/news-release/occupationalemploymentandwages_
 | All occupations, mean | | | | | $26.16 |
 
 This release supersedes the May 2024 food-service figure in
-[froyo research/operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md), which was 27 months old. The regional release
+the earlier frozen-yogurt study ([operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md)), which was 27 months old. The regional release
 reports sales and related occupations at $20.87/hr mean; that group includes
 higher-paid sales roles and overstates a counter wage.
 
 **Owner hours, estimate.** Hours posted by nearby stores, retrieved 2026-09-30:
 Game Changers, 58 hr/wk (Mon-Thu 10-6, Fri-Sat 10-8, Sun 11-5;
-https://www.lgsfinder.org/indiana/michigan-city/game-changers-michigan-city);
+<https://www.lgsfinder.org/indiana/michigan-city/game-changers-michigan-city>);
 NWI Cards, Merrillville, 36.5 hr/wk, closed Mon-Tue
-(https://www.nwicards.com/pages/visit). A store open 48 hr/wk (Tue-Fri 12-8,
+(<https://www.nwicards.com/pages/visit>). A store open 48 hr/wk (Tue-Fri 12-8,
 Sat 10-8, Sun 12-6) with one 25 hr/wk employee leaves 23 hr of floor time for
 the owner. Friday Night Magic and league nights run past close. Buying,
 singles pricing, online listing and event reporting add 10-15 hr/wk (`guess`).
@@ -529,7 +536,7 @@ Evening events need two people on the floor for theft reasons (section 10).
 Result: 45-60 owner hours a week, most of them evenings and weekends.
 
 **Disconfirming check:** If the owner does not draw pay, the store looks
-profitable while it consumes a full-time job. The model must price owner
+profitable while it consumes a full-time job. A financial model must price owner
 labor at the BLS supervisor median, $21.75/hr, or state that it does not.
 
 ---
@@ -547,31 +554,32 @@ Neither public library runs a trading card club.
 
 - **Heroes Haven Comics & Games, 296-A E US Hwy 20.** A third-party directory,
   MyStore411, lists it as a "Wizards Play Network Store"
-  (https://www.mystore411.com/store/view/24378007/Wizards-of-the-Coast-Michigan-City).
+  (<https://www.mystore411.com/store/view/24378007/Wizards-of-the-Coast-Michigan-City>).
   The Wizards locator's own API, queried the same day, does not list it
   ([competition.md](competition.md)); the primary source wins, so treat it as not
-  a WPN store until the owner says otherwise.
+  a WPN store until Heroes Haven says otherwise.
   Search summaries describe Magic, HeroClix and Warhammer play and a separate
   tabletop room (Yelp and Facebook pages returned 403). Whether it runs Pokémon,
   One Piece or Lorcana events is unknown.
 - **Game Changers, 4303 Franklin St** (inside Lake Park Plaza). 4.7 stars, 446
   reviews; carries "other trading card games" and board games, video games.
-  LGS Finder, https://www.lgsfinder.org/indiana/michigan-city/game-changers-michigan-city .
+  LGS Finder, <https://www.lgsfinder.org/indiana/michigan-city/game-changers-michigan-city> .
   LGS Finder lists it as "the sole game store currently listed in Michigan City
   proper" and nine more within 25 miles.
 - **The Michigan City Card and Pokemon Show**, FOP Lodge #75, 416 US-20: dates
   2026-10-17 (100+ tables) and 2026-12-12. Section 2.
-- **Nearest Pokémon league found:** Porter County Pokemon League at Galactic
-  Greg's, 1407 E Lincolnway, Valparaiso (pokemon.com league page 4479; the page
-  returned a bot check, so this rests on a search-result summary). No league in
-  Michigan City or La Porte appeared. High Heat Cards & Collectibles in La Porte
-  appeared in the same summary, unverified.
+- **Pokémon league leads, all from search-result summaries:** Reliquary
+  Gaming, Chesterton, 11.0 mi (pokemon.com league page 6238436, per
+  [competition.md](competition.md)); Porter County Pokemon League at Galactic
+  Greg's, 1407 E Lincolnway, Valparaiso, 19.5 mi (league page 4479). Both pages
+  returned a bot check. No league in Michigan City appeared. High Heat Cards &
+  Collectibles in La Porte appeared in the second summary as a lead, unverified.
 - **Michigan City Public Library**, October 2026 calendar
-  (https://www.mclib.org/events): D&D for Kids (Oct 7), Board Game Night for
+  (<https://www.mclib.org/events>): D&D for Kids (Oct 7), Board Game Night for
   Adults (Oct 13), Ultimate Werewolf (Oct 26). No Pokémon, Magic or trading card
   program.
 - **La Porte County Public Library** upcoming events
-  (https://www.laportelibrary.org/events/upcoming): no card or tabletop game
+  (<https://www.laportelibrary.org/events/upcoming>): no card or tabletop game
   program.
 - **Schools:** no card game club was found for Michigan City Area Schools or
   Marquette Catholic. Searches returned nothing either way.
@@ -586,15 +594,16 @@ learn-to-play Pokémon night is a cheap demand test.
 **Disconfirming check:** If Heroes Haven already runs a Pokémon league or One
 Piece nights, the gap closes and a new store splits a small player base. Call
 Heroes Haven (219-809-9191) and Game Changers (219-879-7930), or attend one
-event night at each, and count players. Both Wizards and Pokémon store locators
-blocked automated retrieval; a browser check of locator.wizards.com and
-events.pokemon.com for 46360 settles which events run where.
+event night at each, and count players. The Pokémon locator blocked automated
+retrieval; the Wizards locator was read through its API
+([competition.md](competition.md)). A browser check of events.pokemon.com for
+46360 settles which Pokémon events run where.
 
 ---
 
 ## Still unknown
 
-- **Player counts at existing events.** Attend Friday Night Magic at Heroes
+- **Player counts at existing events.** Attend an event night at Heroes
   Haven and any Game Changers event; count heads. This is the single best
   demand measurement available.
 - **Which games Heroes Haven and Game Changers sanction.** Wizards and Pokémon
@@ -608,14 +617,15 @@ events.pokemon.com for 46360 settles which events run where.
   fee.** Building dept 219-873-1417 or the Cloudpermit portal.
 - **Insurance quote** for a BOP with $50,000-$100,000 inventory limits and
   burglary coverage for collectibles.
-- **Wizards Play Network and Play! Pokémon store requirements** (storefront,
-  play space, fees). The WPN application page returned 404.
+- **Fees for Wizards Play Network and Play! Pokémon store membership.** The
+  venue requirements are in [distribution-and-supply.md](distribution-and-supply.md),
+  sections 1.1 and 1.2.
 - **PNW Westville headcount** and students living in 46360. PNW registrar.
 - **Share of group quarters in Michigan City that is correctional.** ACS table
   B26101 or 2020 Census group quarters counts.
 - **Sports-card buyer demographics** from a survey with published methodology
   and an age-by-gender split. YouGov's tracker exists
-  (https://yougov.com/en-us/trackers/fame-and-popularity-sports-card-collecting)
+  (<https://yougov.com/en-us/trackers/fame-and-popularity-sports-card-collecting>)
   but its numbers did not render.
 - **Whether summer tourists buy cards.** Log customer ZIP codes for one summer,
   or ask Game Changers what July does against February.
@@ -625,7 +635,7 @@ events.pokemon.com for 46360 settles which events run where.
 | Figure | Re-check by | Why |
 |--------|-------------|-----|
 | ACS 2020-2024 5-year demographics | 2026-12-31 | ACS 2021-2025 5-year releases in December |
-| Listing rents (1601 Franklin, 3200 Franklin, 5510, 5172) | 2027-03-30 | Rent quotes go stale in 6 months; listings updated 2026-06-25 |
+| Listing rents (1601 Franklin, 3200 Franklin, 5510, 5172) | 2026-12-25 | Rent quotes go stale in 6 months; listings updated 2026-06-25 |
 | BLS OEWS May 2025 wages | 2027-07-15 | May 2026 estimates expected mid-2027 |
 | POS pricing and BinderPOS onboarding pause | 2027-03-30 | Vendor pricing moves; the pause may lift |
 | Insureon medians (updated 2025-01-03) | Now | 21 months old, past the 18-month threshold, and proxy data only |

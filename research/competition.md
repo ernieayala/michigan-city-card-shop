@@ -1,13 +1,13 @@
 # Local and Regional Competition for TCG and Sports Card Product
 
-> Last updated: 2026-09-30
+> Last updated: 2026-10-01
 
 Scope: stores selling Pokémon, One Piece, Magic: The Gathering, Lorcana, Yu-Gi-Oh!, and sports cards
 within roughly 45 minutes of Michigan City, IN 46360. Distances are straight-line miles from
 41.7075, -86.8950 (central Michigan City), computed by us with the haversine formula from coordinates
 the publisher locators return. Drive distance runs longer. Treat every distance as `estimate`.
 
-## What the principal reported
+## What the owner reported
 
 **Finding:** The owner reports four things about local competition, recorded here as testimony before any check.
 **Confidence:** guess
@@ -15,8 +15,8 @@ the publisher locators return. Drive distance runs longer. Treat every distance 
 **Retrieved:** 2026-09-30
 
 1. A comic book shop in Michigan City carries a small TCG selection: some Pokémon, some One Piece, a few boxes at most.
-2. A sports card shop near New Buffalo (Michigan side) deals in sports cards first, with some Pokémon, and prices 50-80% above market.
-3. Shops in La Porte price about 20% above market.
+2. A sports card shop near New Buffalo (Michigan side) deals in sports cards first, with some Pokémon, and prices above online market (the owner's impression, not measured).
+3. Shops in La Porte price above online market (the owner's impression, not measured).
 4. The next nearest options after those are the La Porte shops.
 
 Results of the checks below:
@@ -24,19 +24,19 @@ Results of the checks below:
 | Claim | Status | Basis |
 |-------|--------|-------|
 | 1. Michigan City comic shop, small TCG selection | Consistent, not verified | The only comic shop found is Heroes Haven Comics & Games. Its own site and listings describe comics, Magic, HeroClix, Warhammer. No publisher locator lists it. Pokémon and One Piece stock depth not checkable online |
-| 2. New Buffalo sports shop, some Pokémon, 50-80% over market | Shop exists and is sports-first; price claim not verified | The shop's site blocks automated retrieval, so no prices were read |
-| 3. La Porte shops about 20% over market | Not verified | Neither La Porte card shop publishes a price list found online |
+| 2. New Buffalo sports shop, some Pokémon, priced above market | Shop exists and is sports-first; price claim not verified | The shop's site blocks automated retrieval, so no prices were read |
+| 3. La Porte shops priced above market | Not verified | Neither La Porte card shop publishes a price list found online |
 | 4. La Porte shops are the next nearest | Contradicted in part | Reliquary Gaming in Chesterton is 11.0 mi, the same distance as High Heat in La Porte (11.0 mi), and runs more organized play than either La Porte shop |
 
 ## Which authorized stores do the publisher locators show near 46360?
 
 **Finding:** The Wizards locator lists zero WPN stores in Michigan City; the nearest three are 11.0 to 11.5 mi away (Reliquary Gaming, Chesterton; High Heat Cards & Collectibles and Goblin Cards & Collectibles, La Porte).
 **Confidence:** fact
-**Source:** Wizards Store & Event Locator backend, `https://api.tabletop.wizards.com/silverbeak-griffin-service/graphql`, query `storesByLocation` at lat 41.7075, lon -86.8950, radius 80,467 m (50 mi). Store pages: https://locator.wizards.com/store/14726 , https://locator.wizards.com/store/23837 , https://locator.wizards.com/store/15353
+**Source:** Wizards Store & Event Locator backend, `https://api.tabletop.wizards.com/silverbeak-griffin-service/graphql`, query `storesByLocation` at lat 41.7075, lon -86.8950, radius 80,467 m (50 mi). Store pages: <https://locator.wizards.com/store/14726> , <https://locator.wizards.com/store/23837> , <https://locator.wizards.com/store/15353>
 **Retrieved:** 2026-09-30
 
 The query returned 55 stores within 50 mi, sorted by distance. The web front end at
-https://locator.wizards.com renders results client-side, and a plain fetch of the search URL showed
+<https://locator.wizards.com> renders results client-side, and a plain fetch of the search URL showed
 "No results found", so the list came from the API the page itself calls. Nearest WPN stores:
 
 | Store | Address | Miles |
@@ -67,7 +67,7 @@ Posted Magic events on 2026-09-30 (locator store pages):
 | High Heat (La Porte) | "No upcoming events at this store" |
 | Goblin (La Porte) | "No upcoming events at this store" |
 
-**Disconfirming check:** A third-party page (https://www.mystore411.com/store/view/24378007/Wizards-of-the-Coast-Michigan-City, retrieved 2026-09-30) lists Heroes Haven Comics & Games as a "Wizards Play Network Store". The Wizards API, the primary source, does not list it. Heroes Haven either left WPN or the mirror is stale. An unposted event is not proof of no event: La Porte shops may run Magic nights they do not post. A phone call to each settles it.
+**Disconfirming check:** A third-party page (<https://www.mystore411.com/store/view/24378007/Wizards-of-the-Coast-Michigan-City>, retrieved 2026-09-30) lists Heroes Haven Comics & Games as a "Wizards Play Network Store". The Wizards API, the primary source, does not list it. Heroes Haven either left WPN or the mirror is stale. An unposted event is not proof of no event: La Porte shops may run Magic nights they do not post. A phone call to each settles it.
 
 ---
 
@@ -87,7 +87,7 @@ Nu Yeer Games (Hobart), Underground Case Breaks, NWI Cards (Merrillville, 26.2),
 
 **Finding:** Konami's Official Tournament Store list shows no Yu-Gi-Oh! OTS in LaPorte or Porter County except one address in Portage (3369 Willowcreek Rd, the Dragon's Lair address), about 18 mi away.
 **Confidence:** sourced
-**Source:** https://img.yugioh-card.com/en/downloads/ots/KonamiOTS_2026-0827.pdf (linked from https://www.yugioh-card.com/en/events/ots-locations/)
+**Source:** <https://img.yugioh-card.com/en/downloads/ots/KonamiOTS_2026-0827.pdf> (linked from <https://www.yugioh-card.com/en/events/ots-locations/>)
 **Retrieved:** 2026-09-30
 
 The PDF is dated 2026-08-27. Our text extraction misaligned the name and address columns: the Portage
@@ -103,14 +103,15 @@ misalignment.
 
 **Finding:** The Pokémon Event Locator and the Bandai TCG+ One Piece locator could not be retrieved.
 **Confidence:** n/a (not retrieved)
-**Source:** https://events.pokemon.com/EventLocator/ (Incapsula bot block); https://www.pokemon.com/us/play-pokemon/pokemon-events/leagues/6238436/ (bot check); `https://api.bandai-tcg-plus.com/api/user/event/list` (HTTP 403)
+**Source:** <https://events.pokemon.com/EventLocator/> (Incapsula bot block); <https://www.pokemon.com/us/play-pokemon/pokemon-events/leagues/6238436/> (bot check); `https://api.bandai-tcg-plus.com/api/user/event/list` (HTTP 403)
 **Retrieved:** 2026-09-30 (attempted)
 
 A search-engine snippet of pokemon.com league page 6238436 names Reliquary Gaming, 1585 S Calumet Rd,
 Chesterton, as a Pokémon League venue. The page itself returned a bot check, so this is `sourced` at best
-and unconfirmed. A Chesterton town calendar entry (https://www.chestertonin.org/Calendar.aspx?EID=1058)
+and unconfirmed. A Chesterton town calendar entry (<https://www.chestertonin.org/Calendar.aspx?EID=1058>)
 shows a past Pokémon League at Thomas Library, Tuesdays 6:30 to 8:00 PM, which the search summary dated
-to 2015; it indicates past local demand, nothing current. A search result pointing to "Space Goblin
+to 2015; it indicates past local demand, nothing current. A second snippet names a Porter County Pokémon League at Galactic Greg's, 1407 E Lincolnway,
+Valparaiso (league page 4479), also unconfirmed. A search result pointing to "Space Goblin
 Collectibles" league 6242919 led to a store in Austin, TX, unrelated to Goblin in La Porte.
 
 **Disconfirming check:** Open the Pokémon Event Locator and the Bandai TCG+ app in a normal browser, search 46360 at 25 and 50 mi, and record every store and event. This is a 15-minute field task.
@@ -130,21 +131,21 @@ not retrievable.
 
 | Name | Town / address | Dist | Games | Organized play | WPN | Lorc | Sports hobby / brands | Breaks | Source | Confidence |
 |------|----------------|------|-------|----------------|-----|------|-----------------------|--------|--------|------------|
-| Heroes Haven Comics & Games | 296-A E US Hwy 20, Michigan City | ~2-3 | Comics, Magic, HeroClix, Warhammer 40K, RPGs; principal reports small Pokémon and One Piece stock | Tabletop room; no publisher-listed events | No (mirror says yes, stale) | No | None found | None found | http://www.heroeshavenmc.com/ (expired TLS cert, read with verification off) | sourced |
-| Game Changers | 4303 Franklin St, Michigan City | ~2 | Video games, retro; an aggregator guesses "other TCGs" | None listed | No | No | n/c | n/c | https://www.lgsfinder.org/indiana/michigan-city/game-changers-michigan-city | guess |
-| Michigan City Card & Pokémon Show | FOP Lodge #75, 416 US-20, Michigan City | ~2 | Pokémon, sports cards (dealer tables) | Monthly Saturday show, 9 AM to 3 PM, free entry, "100 tables"; dates Sep 19, Oct 17, Nov 21, Dec 12, 2026 | n/a | n/a | Yes, dealer tables | n/c | https://cardshows.io/events/michigan-city-sports-card-and-pokemon-show-10-17-2026 ; https://www.treasurehunter.show/show/the-michigan-city-card-and-pokemon-show-michigan-city-in-2026-09-19 | sourced |
-| The Sports Card Shop (New Buffalo) | 18853 US Hwy 12, New Buffalo, MI 49117 | ~10 | Sports cards; Pokémon (principal; SCD 2023 said it planned to expand Pokémon) | Release-day events, card shows (search snippet of own site) | No | No | Topps, Panini, hobby boxes, singles (search snippet of own site) | 2023 profile: family avoids breaks by choice; later site snippet: live box breaks via its marketplace. Conflicting | https://sportscollectorsdigest.com/news/sports-card-shop-new-buffalo-michigan-gotcher-family-hobby-collectibles (2023-01-12); https://thesportscardshop.com/ (blocked by Vercel checkpoint) | sourced |
+| Heroes Haven Comics & Games | 296-A E US Hwy 20, Michigan City | ~2-3 | Comics, Magic, HeroClix, Warhammer 40K, RPGs; the owner reports small Pokémon and One Piece stock | Tabletop room; no publisher-listed events | No (mirror says yes, stale) | No | None found | None found | <http://www.heroeshavenmc.com/> (the site's TLS certificate had expired) | sourced |
+| Game Changers | 4303 Franklin St, Michigan City | ~2 | Video games, retro; an aggregator guesses "other TCGs" | None listed | No | No | n/c | n/c | <https://www.lgsfinder.org/indiana/michigan-city/game-changers-michigan-city> | guess |
+| Michigan City Card & Pokémon Show | FOP Lodge #75, 416 US-20, Michigan City | ~2 | Pokémon, sports cards (dealer tables) | Monthly Saturday show, 9 AM to 3 PM, free entry, "100 tables"; dates Sep 19, Oct 17, Nov 21, Dec 12, 2026 | n/a | n/a | Yes, dealer tables | n/c | <https://cardshows.io/events/michigan-city-sports-card-and-pokemon-show-10-17-2026> ; <https://www.treasurehunter.show/show/the-michigan-city-card-and-pokemon-show-michigan-city-in-2026-09-19> | sourced |
+| The Sports Card Shop (New Buffalo) | 18853 US Hwy 12, New Buffalo, MI 49117 | ~10 | Sports cards; Pokémon (owner; SCD 2023 said it planned to expand Pokémon) | Release-day events, card shows (search snippet of own site) | No | No | Topps, Panini, hobby boxes, singles (search snippet of own site) | 2023 profile: family avoids breaks by choice; later site snippet: live box breaks via its marketplace. Conflicting | <https://sportscollectorsdigest.com/news/sports-card-shop-new-buffalo-michigan-gotcher-family-hobby-collectibles> (2023-01-12); <https://thesportscardshop.com/> (blocked by Vercel checkpoint) | sourced |
 | The Sports Card Shop (Valparaiso) | 118 Lincolnway, Valparaiso, IN | ~18 | Sports cards | n/c | No | No | Yes (same owner) | n/c | Search snippet of thesportscardshop.com/about | guess |
-| Reliquary Gaming | 1585 S Calumet Rd, Chesterton, IN 46304 | 11.0 | Magic, Lorcana, Riftbound; Pokémon League (snippet) | Weekly posted Magic events, drafts, prereleases; Lorcana and Riftbound OP; Discord | Yes | Yes | n/c | n/c | Wizards API; Ravensburger API; https://locator.wizards.com/store/14726 | fact (WPN, Lorcana); sourced (Pokémon) |
-| High Heat Cards & Collectibles | 103 J St, La Porte, IN 46350 | 11.0 | Sports cards, Pokémon, Magic, Lorcana, other TCGs | Lorcana OP registered; no posted Magic events | Yes | Yes | Yes, brands n/c | n/c | Wizards API; Ravensburger API; La Porte Herald-Dispatch grand-opening coverage (page returned HTTP 429, known from search snippet only); https://lpchamber.chambermaster.com/list/member/high-heat-cards-and-collectibles-4770.htm (not fetched) | fact (WPN, Lorcana); sourced (products) |
-| Goblin Cards & Collectibles | 603 E Lincolnway, La Porte, IN 46350 | 11.5 | Magic, Pokémon, Yu-Gi-Oh!, Flesh and Blood, sports cards (listings) | No posted Magic events; free play area (listing) | Yes | No | Yes per listings, brands n/c | Whatnot account "goblincollectibles" exists; link to this store unconfirmed | Wizards API; https://goblincardsandcollectibles.com/ (hours Wed-Thu 12-8, Fri 10-9, Sat 10-8, Sun 10-6, closed Mon-Tue) | fact (WPN, hours); guess (products) |
-| Monroe's Collectibles Toys & Comics | 515 State St, La Porte, IN 46350 | ~11 | Toys, comics, graded collectibles; aggregator lists Magic | n/c | No | No | n/c | n/c | https://www.lgsfinder.org/indiana/la-porte | guess |
-| Sky Games & Novelties | 713 Monroe St, La Porte, IN 46350 | ~11 | Board games | n/c | No | No | n/c | n/c | https://www.lgsfinder.org/indiana/la-porte | guess |
+| Reliquary Gaming | 1585 S Calumet Rd, Chesterton, IN 46304 | 11.0 | Magic, Lorcana, Riftbound; Pokémon League (snippet) | Regular posted Magic events, drafts, prereleases; Lorcana and Riftbound OP; Discord | Yes | Yes | n/c | n/c | Wizards API; Ravensburger API; <https://locator.wizards.com/store/14726> | fact (WPN, Lorcana); sourced (Pokémon) |
+| High Heat Cards & Collectibles | 103 J St, La Porte, IN 46350 | 11.0 | Sports cards, Pokémon, Magic, Lorcana, other TCGs | Lorcana OP registered; no posted Magic events | Yes | Yes | Yes, brands n/c | n/c | Wizards API; Ravensburger API; La Porte Herald-Dispatch grand-opening coverage (page returned HTTP 429, known from search snippet only); <https://lpchamber.chambermaster.com/list/member/high-heat-cards-and-collectibles-4770.htm> (member page now redirects to the chamber's list page) | fact (WPN, Lorcana); sourced (products) |
+| Goblin Cards & Collectibles | 603 E Lincolnway, La Porte, IN 46350 | 11.5 | Magic, Pokémon, Yu-Gi-Oh!, Flesh and Blood, sports cards (listings) | No posted Magic events; free play area (listing) | Yes | No | Yes per listings, brands n/c | Whatnot account "goblincollectibles" exists; link to this store unconfirmed | Wizards API; <https://goblincardsandcollectibles.com/> (hours Wed-Thu 12-8, Fri 10-9, Sat 10-8, Sun 10-6, closed Mon-Tue) | fact (WPN, hours); guess (products) |
+| Monroe's Collectibles Toys & Comics | 515 State St, La Porte, IN 46350 | ~11 | Toys, comics, graded collectibles; aggregator lists Magic | n/c | No | No | n/c | n/c | <https://www.lgsfinder.org/indiana/la-porte> | guess |
+| Sky Games & Novelties | 713 Monroe St, La Porte, IN 46350 | ~11 | Board games | n/c | No | No | n/c | n/c | <https://www.lgsfinder.org/indiana/la-porte> | guess |
 | KeyCards LLC | La Porte (address unknown) | n/c | Listed as One Piece seller by a directory | n/c | No | No | n/c | n/c | Search-result summary only; no page retrieved | guess |
-| The Cosmic Rip | Online; a listing puts it at a rural La Porte address, Facebook says Valparaiso | n/a | Pokémon singles, graded, sealed (19 products, 3 in stock) | None | No | No | No | No | https://thecosmicrip.com/products.json | fact (catalog); guess (location) |
-| HB Cards | 1703 Calumet Ave, Valparaiso | 17.4 | Magic, Lorcana, Riftbound | Weekly Commander open play Tuesdays | Yes | Yes | n/c | n/c | Wizards API; https://locator.wizards.com/store/21526 | fact |
+| The Cosmic Rip | Online; a listing puts it at a rural La Porte address, Facebook says Valparaiso | n/a | Pokémon singles, graded, sealed (19 products, 3 in stock) | None | No | No | No | No | <https://thecosmicrip.com/products.json> | fact (catalog); guess (location) |
+| HB Cards | 1703 Calumet Ave, Valparaiso | 17.4 | Magic, Lorcana, Riftbound | Weekly Commander open play Tuesdays | Yes | Yes | n/c | n/c | Wizards API; <https://locator.wizards.com/store/21526> | fact |
 | Dragon's Lair Cards and Comics | 3369 Willowcreek Rd, Portage | 18.2 | Magic, Lorcana, Riftbound, Heroscape; Yu-Gi-Oh! OTS at this address | Friday Night Magic Commander weekly | Yes | Yes | n/c | n/c | Wizards API; Ravensburger API; Konami OTS PDF | fact |
-| Galactic Greg's | 1407 E Lincolnway, Valparaiso | 19.5 | Comics, games, trading cards; "since 1990" | n/c | Yes | No | n/c | n/c | https://www.galacticgregs.com/ ; Wizards API | fact |
+| Galactic Greg's | 1407 E Lincolnway, Valparaiso | 19.5 | Comics, games, trading cards; "since 1990" | Porter County Pokémon League per a search snippet of pokemon.com league page 4479 (not fetched) | Yes | No | n/c | n/c | <https://www.galacticgregs.com/> ; Wizards API | fact |
 | GameStop 5052 / 6958 | Valparaiso / Portage | 17.9 / 18.2 | Sealed TCG | WPN listed | Yes | No | n/c | No | Wizards API | fact |
 | Endzone Sport Cards | Valparaiso | ~18 | Sports cards | n/c | No | No | Yes | n/c | Yelp listing title only | guess |
 | Nu Yeer Games | 154 S Illinois St, Hobart | 21.8 | Riftbound | OP registered | No | No | n/c | n/c | Ravensburger API | fact |
@@ -159,7 +160,7 @@ Bridgman (23.8 mi), Porter, Westville (11.5 mi). "No store found" means none app
 the Ravensburger API, the Konami PDF, or the directories searched. It does not rule out a shop with no web
 presence.
 
-**Disconfirming check:** Directory listings (indianatcg.com, lgsfinder.org) are aggregators of mixed quality and can list closed or misclassified businesses. The Hi5 Cards result that surfaced for Michigan City is a Bloomington, IN business (https://hi5cardsandcollectiblesin.com/) and was excluded. The Gaming Geeks (2356 N Wozniak Rd, Michigan City) makes tabletop art and accessories and is not a card retailer (https://www.thegaminggeeks.net/); excluded.
+**Disconfirming check:** Directory listings (indianatcg.com, lgsfinder.org) are aggregators of mixed quality and can list closed or misclassified businesses. The Hi5 Cards result that surfaced for Michigan City is a Bloomington, IN business (<https://hi5cardsandcollectiblesin.com/>; the domain no longer resolved on 2026-09-30) and was excluded. The Gaming Geeks (2356 N Wozniak Rd, Michigan City) makes tabletop art and accessories and is not a card retailer (<https://www.thegaminggeeks.net/>); excluded.
 
 ## Is Michigan City underserved, or too small to support a better shop?
 
@@ -182,26 +183,26 @@ The first reading is the favorable one. It has the least direct evidence behind 
 
 **Finding:** The only confirmed closure found is GameStop at Michigan City Town Center, 5330 Franklin St, on a January 2025 closure list; no closed independent card or game shop in Michigan City or LaPorte County was found in online news.
 **Confidence:** sourced
-**Source:** https://www.newsweek.com/gamestop-stores-closing-2025-full-list-2029930 (published 2025-02-12; list compiled from an unofficial blog tracking GameStop's store locator)
+**Source:** <https://www.newsweek.com/gamestop-stores-closing-2025-full-list-2029930> (published 2025-02-12; list compiled from an unofficial blog tracking GameStop's store locator)
 **Retrieved:** 2026-09-30
 
 Corroboration: the Wizards API lists GameStop WPN stores in Valparaiso and Portage and none in Michigan
-City. GameStop's own store page (https://www.gamestop.com/store/us/in/michigan-city/5453/michigan-city-town-center-gamestop)
+City. GameStop's own store page (<https://www.gamestop.com/store/us/in/michigan-city/5453/michigan-city-town-center-gamestop>)
 returned HTTP 403.
 
 Other history found:
 
-- A February 2014 post calls Heroes Haven a new storefront in downtown Michigan City (https://haterfreewednesdays.tumblr.com/post/78015402262/heroes-haven-in-michigan-city-in, a personal blog; `guess`). It now operates at 296-A E US Hwy 20. That reads as a relocation, not a closure. Cause unknown.
+- A February 2014 post calls Heroes Haven a new storefront in downtown Michigan City (<https://haterfreewednesdays.tumblr.com/post/78015402262/heroes-haven-in-michigan-city-in>, a personal blog; `guess`). It now operates at 296-A E US Hwy 20. That reads as a relocation, not a closure. Cause unknown.
 - Game Changers opened inside Marquette Mall, Michigan City, in 2011 and moved to 4303 Franklin St after growing from 800 to 4,000 sq ft (search snippet of the store's own description; `guess`). Relocation, not closure.
 - High Heat opened in La Porte with a grand opening September 12 (year not confirmed; La Porte Herald-Dispatch article returned HTTP 429). Listings call Goblin a recent opening. Both La Porte card shops appear to be post-2020 openings, which means the La Porte market has not yet shown it sustains them through a downturn.
 
-**Disconfirming check:** Online news search returned nothing, which is weak evidence of no closures. Local papers (The News-Dispatch, La Porte Herald-Dispatch) sit behind rate limits and paywalls. Ask Heroes Haven's owner (Patrick, per the store site) and the FOP card-show organizer (219-229-0411) which card or game shops have opened and closed in Michigan City since 2015. Search INBiz for dissolved entities with "cards", "comics", "games", or "collectibles" in the name and a Michigan City or La Porte address. INBiz was not queried.
+**Disconfirming check:** Online news search returned nothing, which is weak evidence of no closures. Local papers (The News-Dispatch, La Porte Herald-Dispatch) sit behind rate limits and paywalls. Ask Heroes Haven's owner and the FOP card-show organizer (219-229-0411) which card or game shops have opened and closed in Michigan City since 2015. Search INBiz for dissolved entities with "cards", "comics", "games", or "collectibles" in the name and a Michigan City or La Porte address. INBiz was not queried.
 
 ## Which big-box stores compete on sealed product?
 
 **Finding:** Michigan City has a Walmart Supercenter and a Meijer; it has no Target, no Barnes & Noble, and, since January 2025, no GameStop.
 **Confidence:** fact for store existence; guess for what each stocks
-**Source:** Walmart store 1487, 5780 Franklin St (https://www.walmart.com/store/1487-michigan-city-in); Meijer store 149, 5150 S Franklin St (https://www.meijer.com/shopping/store-locator/149.html, HTTP 403, address from search snippet); Target Indiana directory lists no Michigan City or La Porte store (https://www.target.com/store-locator/store-directory/indiana); Barnes & Noble nearest in Valparaiso (store 2138) and Mishawaka (store 2358), Merrillville closed (https://stores.barnesandnoble.com/store/2138)
+**Source:** Walmart store 1487, 5780 Franklin St (<https://www.walmart.com/store/1487-michigan-city-in>); Meijer store 149, 5150 S Franklin St (<https://www.meijer.com/shopping/store-locator/149.html>, HTTP 403, address from search snippet); Target Indiana directory lists no Michigan City or La Porte store (<https://www.target.com/store-locator/store-directory/indiana>); Barnes & Noble nearest in Valparaiso (store 2138) and Mishawaka (store 2358), Merrillville closed (<https://stores.barnesandnoble.com/store/2138>)
 **Retrieved:** 2026-09-30
 
 | Retailer | Nearest location | Likely TCG / sports product | Confidence on stock |
@@ -223,7 +224,7 @@ price ceiling a local shop can charge on sealed product without losing the infor
 
 **Finding:** The Sports Card Shop (New Buffalo and Valparaiso) is the sports-first competitor in range; the Topps/Fanatics and Panini hobby-shop locators could not be retrieved, so authorized-retailer status for any local shop is unknown.
 **Confidence:** sourced (shop), n/a (locators)
-**Source:** https://sportscollectorsdigest.com/news/sports-card-shop-new-buffalo-michigan-gotcher-family-hobby-collectibles ; https://ripped.topps.com/hobby-shops/ (HTTP 403); https://paninipod.com/nba-player-of-the-day/shop-locator/ (page loads store data through a WordPress AJAX call we did not reproduce)
+**Source:** <https://sportscollectorsdigest.com/news/sports-card-shop-new-buffalo-michigan-gotcher-family-hobby-collectibles> ; <https://ripped.topps.com/hobby-shops/> (HTTP 403); <https://paninipod.com/nba-player-of-the-day/shop-locator/> (page loads store data through a WordPress AJAX call we did not reproduce)
 **Retrieved:** 2026-09-30
 
 The Sports Collectors Digest profile (John Newman, 2023-01-12) says the Gotcher family's shop started
@@ -234,11 +235,11 @@ on breaks; the newer one is a snippet we could not open. High Heat, Goblin, and 
 sports cards per listings; brand lines and hobby-box depth are unknown. Underground Case Breaks (Hobart,
 22.2 mi) suggests a case-break operation by name only.
 
-**Disconfirming check:** Retrieve the Topps hobby-shop locator and Panini's list in a normal browser for 46360. Ask The Sports Card Shop, High Heat, and Goblin directly whether they hold direct accounts with Fanatics Collectibles (FC Pro) and Panini. A separate workstream covers sports-card distribution economics.
+**Disconfirming check:** Retrieve the Topps hobby-shop locator and Panini's list in a normal browser for 46360. Ask The Sports Card Shop, High Heat, and Goblin directly whether they hold direct accounts with Fanatics Collectibles (FC Pro) and Panini. [sports-cards.md](sports-cards.md) covers sports-card distribution.
 
-## Can the principal's pricing claims be verified?
+## Can the owner's pricing claims be verified?
 
-**Finding:** No. None of the named shops publishes sealed-product prices that could be retrieved on 2026-09-30, so the 50-80% (New Buffalo) and 20% (La Porte) markups remain `guess`.
+**Finding:** No. None of the named shops publishes sealed-product prices that could be retrieved on 2026-09-30, so the owner's markup claims remain `guess`.
 **Confidence:** guess
 **Source:** thesportscardshop.com (Vercel security checkpoint, HTTP 429); goblincardsandcollectibles.com (no product catalog, `/products.json` HTTP 404); High Heat (no web store found); Heroes Haven (no web store)
 **Retrieved:** 2026-09-30
@@ -249,9 +250,9 @@ Surprise Box at $199.99, both out of stock. These are collector-market prices fo
 say nothing about a storefront's markup on current sealed product. We did not pull TCGplayer market prices
 for comparison, because no storefront prices exist to compare them against.
 
-A 20% or 50-80% premium over market would be plausible for a shop pricing sealed product against
-MSRP-scarcity, and implausible for current in-print product that Walmart and Meijer sell at MSRP. Which
-of those the principal observed is unknown.
+A premium over market would be plausible for a shop pricing sealed product against MSRP-scarcity,
+and implausible for current in-print product that Walmart and Meijer sell at MSRP. Which of those the
+owner observed is unknown.
 
 Field check that would verify it (one afternoon per shop, same day for all):
 
@@ -260,16 +261,16 @@ Field check that would verify it (one afternoon per shop, same day for all):
 3. Pull TCGplayer Market Price and MSRP for each SKU the same day.
 4. Compute markup = shelf / TCGplayer market - 1, and shelf / MSRP - 1, per SKU per shop. Report the median per shop and the range.
 
-**Disconfirming check:** If the survey finds La Porte shops within 10% of TCGplayer market on in-print product, the "20% above market" claim fails and the pricing gap a new shop could exploit is smaller than assumed.
+**Disconfirming check:** If the survey finds La Porte shops within 10% of TCGplayer market on in-print product, the owner's markup claim fails and the pricing gap a new shop could exploit is smaller than assumed.
 
 ## What is the biggest competitive risk?
 
-**Finding:** Reliquary Gaming in Chesterton (11.0 mi) already runs the posted, multi-game organized play (Magic weekly, Lorcana, Riftbound, and a Pokémon League per snippet) that a Michigan City store would need to build its community around, and the monthly 100-table card show in Michigan City already sells Pokémon and sports cards in town.
+**Finding:** Reliquary Gaming in Chesterton (11.0 mi) already runs the posted, multi-game organized play (regular Magic events, Lorcana, Riftbound, and a Pokémon League per snippet) that a Michigan City store would need to build its community around, and the monthly 100-table card show in Michigan City already sells Pokémon and sports cards in town.
 **Confidence:** estimate
 **Source:** sections above
 **Retrieved:** 2026-09-30
 
-Pricing competition from the La Porte and New Buffalo shops is the principal's thesis for entry. It is
+Pricing competition from the La Porte and New Buffalo shops is the owner's thesis for entry. It is
 unverified. Organized-play competition from Chesterton and dealer-table competition from the FOP show are
 verified. A new store that wins on price but not on events competes with Walmart, Meijer, TCGplayer, and
 Whatnot for the price-sensitive buyer, a fight a small shop loses on sealed product.
@@ -281,7 +282,7 @@ has an open field. The field work below tests that.
 ## Still unknown
 
 - Whether Heroes Haven stocks Pokémon and One Piece, how many SKUs, and at what price. Visit and run the 10-SKU survey.
-- Whether Heroes Haven left WPN or never joined. Ask the owner.
+- Whether Heroes Haven left WPN or never joined. Ask Heroes Haven's owner.
 - Pokémon League and One Piece store-tournament venues within 25 mi. Query the Pokémon Event Locator and Bandai TCG+ app in a browser.
 - Whether Goblin and High Heat run unposted Magic, Pokémon, or One Piece nights, and attendance. Call both; attend one event at Reliquary and one at High Heat and count players, asking each for their home town.
 - Sports hobby authorized-retailer status for every sports seller in range. Topps and Panini locators in a browser, then ask the shops.
@@ -300,7 +301,7 @@ has an open field. The field work below tests that.
 | Ravensburger Lorcana / Riftbound store list | 2027-03-30 | New registrations |
 | Konami OTS PDF (dated 2026-08-27) | 2027-03-30 | Konami reissues the list |
 | Michigan City Card & Pokémon Show schedule and table count | 2026-12-12 | Show dates listed only through December 2026 |
-| Principal's markup claims (20%, 50-80%) | Before any decision uses them | Unverified; replace with the 10-SKU survey |
+| Owner's markup claims | Before any decision uses them | Unverified; replace with the 10-SKU survey |
 | Big-box stock observations | 2027-03-30 | Allocation and shelf space shift by set release |
 | GameStop Michigan City closure | 2027-09-30 | Confirm no reopening |
 | Sports Card Shop breaks policy | 2027-03-30 | Sources conflict |
