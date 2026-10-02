@@ -13,14 +13,83 @@ partner on event nights, both unpaid for up to six months. On $50,000 it breaks
 even at about $6,200 a month in sales, needs about $11,500 to pay the partner,
 and about $23,300 to pay both, close to all the card spending the area is
 estimated to have. Buying at 80% only on cards worth $50 or more keeps the
-singles margin near 36%; paying 80% on everything cuts it to 20%. Section 9
-compares five ways to use the money. The recommended path is a year of selling
-at shows and online to measure real sales and buy rates, then opening with
-more stock and less cash. Nine gates must pass before any lease.
+singles margin near 36%; paying 80% on everything cuts it to 20%. The next
+section compares five ways to open the store. The recommended path is a year of
+selling at shows and online to measure real sales and buy rates, then opening
+with more stock and less cash. Nine gates must pass before any lease.
 
 Every figure carries a confidence tier as defined on the [overview](README.md).
 Figures marked "plan" are choices this plan makes; figures marked "owner" are
 the owner's own observations or decisions.
+
+## Five ways to open the store
+
+Each option spends the same $50,000 on this plan's inputs: the section 1 buy
+rates, the 80/20 mix, and both people unpaid for six months. All figures are
+estimates built on guesses. Sections 3 to 6 detail option A.
+
+**Recommended: E first, then B.** No local sales figure exists yet. E measures
+sales and buy rates before a lease is signed; if year one clears about $2,700 a
+month in sales, the store opens as B with proven stock.
+
+| | A. Lean store | B. More stock | C. Overrun reserve | D. Larger bay | E. Shows first |
+|---|---:|---:|---:|---:|---:|
+| Space | Unit C, 858 sq ft | Unit C, 858 sq ft | Unit C, 858 sq ft | Suite 1603, 1,370 sq ft | No lease for 12 months |
+| Store opens | Aug to Sep 2027 | Aug to Sep 2027 | Aug to Sep 2027 | Aug to Sep 2027 | 2028 |
+| Setup | $25,129 | $25,129 | $25,129 | $24,697 | $5,775 (year-one costs) |
+| Operating cash | $8,934 (6 months) | $4,467 (3 months) | $8,934 (6 months) | $11,712 (6 months) | n/a |
+| Held back | n/a | n/a | $5,000 | n/a | $29,225 for the store |
+| Opening stock | $15,937 | $20,404 | $10,937 | $13,591 | $15,000 |
+| Monthly cost | $1,584 | $1,584 | $1,584 | $2,047 | $481 |
+| Break-even sales, both unpaid | $6,231/mo | $6,231/mo | $6,231/mo | $8,053/mo | $1,460/mo |
+| Break-even sales, partner paid | $11,499/mo | $11,499/mo | $11,499/mo | $13,319/mo | n/a |
+| Stock above what break-even needs | $5,499 | $9,966 | $499 | $102 | Carries into the store |
+| Sales the stock supports | $9,514/mo | $12,180/mo | $6,529/mo | $8,113/mo | n/a |
+| Spent before local sales are measured | $50,000 | $50,000 | $45,000 | $50,000 | About $20,800 |
+
+### A. Lean store
+
+Balances stock and runway. The stock covers break-even, but paying the partner
+waits until sales grow by about $5,300 a month.
+
+### B. More stock, less cash (recommended second step)
+
+The only storefront option whose stock supports sales near the $11,499 the
+partner's pay needs. It carries three months of operating cash instead of six,
+so a slow opening is covered out of pocket.
+
+### C. Overrun reserve
+
+Holds $5,000 against a build-out or quote overrun. The stock barely supports
+break-even sales.
+
+### D. Larger bay
+
+1601 Franklin St, Suite 1603, at $7.00/sq ft/yr asking ($1,142 a month all-in
+with $3 NNN, a guess). A larger sales floor; more than 20 seats needs a second
+exit. Works only with a rent-free build-out; without one it needs about $2,200
+more.
+
+### E. Shows and online first (recommended first step)
+
+Twelve months of buying and selling at card shows and online, with no lease.
+About $20,800 is at risk, most of it in cards that can be resold. To fund
+option A in year two, year one has to clear about $4,800 of profit: about
+$32,200 of sales at a 33% margin after card fees, or about $1,340 a show across
+24 shows (guess). There are no distributor accounts or sanctioned events until
+the store opens in 2028. Year-one costs (guess; show table fees are not
+published): tables $100 and travel $50 per show, two transient merchant
+licenses $250, business property insurance $600, supplies $100 a month, LLC
+$125.
+
+### Ruled out by the research
+
+Online-only: distributors refuse online-only sellers, and cards bought at 80%
+lose money on TCGplayer. A counter inside another business: Southern Hobby
+refuses stores operating within another business, and WPN requires a store
+that does not share space
+([distribution and supply](research/distribution-and-supply.md), sections 1.2
+and 2.1).
 
 ## Headline, pessimistic first
 
@@ -317,52 +386,7 @@ delivery; Pokémon prereleases need reporting in two of the three prior League
 seasons, so the store runs League nights and no Pokémon prereleases for at
 least two League seasons.
 
-## 9. Five ways to use the $50,000
-
-All five use this plan's inputs: the section 1 buy rates, the 80/20 mix, and
-both people unpaid for six months. Sections 3 to 6 detail version A.
-
-| Version | Where the $50,000 goes | Monthly cost | Break-even sales, unpaid / partner paid | Inventory against the break-even floor | Sales the stock supports |
-|---------|------------------------|-------------:|----------------------------------------:|---------------------------------------:|-------------------------:|
-| A. Lean storefront | Setup $25,129; 6 months' operating cash $8,934; stock $15,937 | $1,584 | $6,231 / $11,499 | $5,499 over | $9,514/mo |
-| B. More stock, less cash | Setup $25,129; 3 months' operating cash $4,467; stock $20,404 | $1,584 | $6,231 / $11,499 | $9,966 over | $12,180/mo |
-| C. Money held for overruns | Setup $25,129; 6 months' operating cash $8,934; $5,000 held back; stock $10,937 | $1,584 | $6,231 / $11,499 | $499 over | $6,529/mo |
-| D. Larger bay | Suite 1603, 1,370 sq ft at $7.00 asking ($1,142 all-in, NNN guess), rent-free build-out required: setup $24,697; 6 months' cash $11,712; stock $13,591 | $2,047 | $8,053 / $13,319 | $102 over | $8,113/mo |
-| E. Shows and online first | 12 months selling at shows and online with no lease: stock $15,000, year-one costs $5,775; $29,225 held for the storefront | $481 | $1,460 | Stock carries into the store | n/a |
-
-All figures are estimates built on guesses.
-
-- **A** balances stock and runway. Its stock covers break-even but not the
-  partner's pay until sales grow.
-- **B** is the only storefront version whose stock supports sales near the
-  $11,499 the partner's pay needs. It has three months of operating cash
-  instead of six.
-- **C** absorbs a cost overrun, but its stock barely supports break-even sales.
-- **D** has a larger sales floor; more than 20 seats needs a second exit.
-  Without a rent-free build-out it needs about $2,200 more.
-- **E** puts the least money at risk: about $20,800, most of it in cards that
-  can be resold. Year one has to clear about $4,800 of profit to fund version A
-  in year two, which takes about $32,200 of sales at a 33% margin after card
-  fees, about $1,340 a show across 24 shows (guess). Without a storefront there
-  are no distributor accounts or sanctioned events, and the store opens in
-  2028. Year-one costs: show tables $100 and travel $50 per show, two
-  transient merchant licenses ($250), business property insurance $600 and
-  supplies $100 a month (guess; table fees are not published), and the LLC
-  ($125).
-
-**Ruled out by the research:** online-only (distributors refuse online-only
-sellers, and cards bought at 80% lose money on TCGplayer), and a counter inside
-another business (Southern Hobby refuses stores operating within another
-business, and WPN requires a store that does not share space;
-[distribution and supply](research/distribution-and-supply.md), sections 1.2
-and 2.1).
-
-**Recommended path: E, then B.** No local sales figure exists yet, and E
-measures sales and buy rates before a lease is signed. If year one clears about
-$2,700 a month in sales, the store opens as B with proven stock and real buy
-rates.
-
-## 10. Risks
+## 9. Risks
 
 | Risk | Size | What the plan does |
 |------|------|--------------------|
