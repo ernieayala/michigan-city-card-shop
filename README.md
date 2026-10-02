@@ -1,8 +1,22 @@
 # Card Shop Feasibility: Michigan City
 
-> Last updated: 2026-10-01
-> Status: first pass. Desk research only. No phone calls, no site visits, no
-> distributor quotes, no customer counts.
+> Last updated: 2026-10-02
+> Status: desk research only. No phone calls, no site visits, no distributor
+> quotes, no customer counts.
+
+## Summary
+
+$50,000 does not fund the standard card store in this research, which starts
+at $64,236. A lean version fits: an 858 sq ft store, 80% trading card games and
+20% sports cards, events most nights, with the owner and a partner unpaid for
+six months. It breaks even at about $6,200 a month in sales and needs about
+$23,300 to pay both people, close to all the card spending the area is
+estimated to have. Online-only selling has no wholesale supply, and sports
+cards have no direct supply for a new store. The recommended path is a year of
+selling at shows and online to measure real sales and buy rates, then opening
+the store on that evidence. See the [storefront plan](storefront-plan.md).
+
+## About this research
 
 This repo holds research on a trading card store (Pokémon, One Piece, Magic,
 Lorcana, sports cards) in Michigan City, Indiana, as a storefront or as an online
@@ -11,7 +25,7 @@ that store, who commissioned the research. Seed capital named by the owner:
 about $50,000.
 
 The deliverable is a go / no-go decision. The research applies the evidence
-rules of an earlier feasibility study of a frozen-yogurt shop in the same town
+rules of a separate feasibility study of a frozen-yogurt shop in the same town
 ([froyo](https://github.com/ernieayala/froyo)): every number carries a source,
 a date, and a confidence tier.
 
@@ -103,11 +117,13 @@ same site.
 
 ## Plan
 
-The [storefront plan](storefront-plan.md) fits a singles-first store with a
-20-seat play area into the $50,000 only in an 858 sq ft bay, with $518 of room
-above the inventory needed to reach break-even. Break-even is $7,567 a month in
-sales, and paying the owner $3,000 a month needs $18,274. Eight gates must pass
-before any lease is signed.
+The [storefront plan](storefront-plan.md) fits an 80% TCG, 20% sports store
+with a 20-seat play area and events most nights into the $50,000, in an 858 sq
+ft bay. With the owner and a partner unpaid for six months, break-even is $6,231
+a month in sales; paying the partner raises it to $11,499, and paying both to
+$23,300. It compares five ways to use the $50,000 and recommends a year of
+selling at shows and online before signing a lease. Nine gates must pass before
+any lease is signed.
 
 ## Research files
 

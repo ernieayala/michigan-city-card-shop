@@ -1,6 +1,18 @@
 # Local and Regional Competition for TCG and Sports Card Product
 
-> Last updated: 2026-10-01
+> Last updated: 2026-10-02
+
+## Summary
+
+No card store on the Wizards, Ravensburger or Konami lists operates in Michigan
+City. The nearest three are 11.0 to 11.5 miles away in Chesterton and La Porte,
+and Reliquary Gaming in Chesterton posts more organized play than either La
+Porte shop. In town, Heroes Haven (comics and games) and Game Changers (video
+games) carry some cards, and a 100-table card show runs monthly at the FOP
+Lodge. Walmart and Meijer sell sealed product at list price when they have it.
+The owner's view that nearby shops price above market is not verified, because
+no shop publishes prices. Whether Michigan City is underserved or too small for
+a card store is unresolved.
 
 Scope: stores selling Pokémon, One Piece, Magic: The Gathering, Lorcana, Yu-Gi-Oh!, and sports cards
 within roughly 45 minutes of Michigan City, IN 46360. Distances are straight-line miles from
@@ -137,7 +149,7 @@ not retrievable.
 | The Sports Card Shop (New Buffalo) | 18853 US Hwy 12, New Buffalo, MI 49117 | ~10 | Sports cards; Pokémon (owner; SCD 2023 said it planned to expand Pokémon) | Release-day events, card shows (search snippet of own site) | No | No | Topps, Panini, hobby boxes, singles (search snippet of own site) | 2023 profile: family avoids breaks by choice; later site snippet: live box breaks via its marketplace. Conflicting | <https://sportscollectorsdigest.com/news/sports-card-shop-new-buffalo-michigan-gotcher-family-hobby-collectibles> (2023-01-12); <https://thesportscardshop.com/> (blocked by Vercel checkpoint) | sourced |
 | The Sports Card Shop (Valparaiso) | 118 Lincolnway, Valparaiso, IN | ~18 | Sports cards | n/c | No | No | Yes (same owner) | n/c | Search snippet of thesportscardshop.com/about | guess |
 | Reliquary Gaming | 1585 S Calumet Rd, Chesterton, IN 46304 | 11.0 | Magic, Lorcana, Riftbound; Pokémon League (snippet) | Regular posted Magic events, drafts, prereleases; Lorcana and Riftbound OP; Discord | Yes | Yes | n/c | n/c | Wizards API; Ravensburger API; <https://locator.wizards.com/store/14726> | fact (WPN, Lorcana); sourced (Pokémon) |
-| High Heat Cards & Collectibles | 103 J St, La Porte, IN 46350 | 11.0 | Sports cards, Pokémon, Magic, Lorcana, other TCGs | Lorcana OP registered; no posted Magic events | Yes | Yes | Yes, brands n/c | n/c | Wizards API; Ravensburger API; La Porte Herald-Dispatch grand-opening coverage (page returned HTTP 429, known from search snippet only); <https://lpchamber.chambermaster.com/list/member/high-heat-cards-and-collectibles-4770.htm> (member page now redirects to the chamber's list page) | fact (WPN, Lorcana); sourced (products) |
+| High Heat Cards & Collectibles | 103 J St, La Porte, IN 46350 | 11.0 | Sports cards, Pokémon, Magic, Lorcana, other TCGs | Lorcana OP registered; no posted Magic events | Yes | Yes | Yes, brands n/c | n/c | Wizards API; Ravensburger API; La Porte Herald-Dispatch grand-opening coverage (page returned HTTP 429, known from search snippet only); <https://lpchamber.chambermaster.com/list/member/high-heat-cards-and-collectibles-4770.htm> (member page redirected to the chamber's list page on 2026-09-30) | fact (WPN, Lorcana); sourced (products) |
 | Goblin Cards & Collectibles | 603 E Lincolnway, La Porte, IN 46350 | 11.5 | Magic, Pokémon, Yu-Gi-Oh!, Flesh and Blood, sports cards (listings) | No posted Magic events; free play area (listing) | Yes | No | Yes per listings, brands n/c | Whatnot account "goblincollectibles" exists; link to this store unconfirmed | Wizards API; <https://goblincardsandcollectibles.com/> (hours Wed-Thu 12-8, Fri 10-9, Sat 10-8, Sun 10-6, closed Mon-Tue) | fact (WPN, hours); guess (products) |
 | Monroe's Collectibles Toys & Comics | 515 State St, La Porte, IN 46350 | ~11 | Toys, comics, graded collectibles; aggregator lists Magic | n/c | No | No | n/c | n/c | <https://www.lgsfinder.org/indiana/la-porte> | guess |
 | Sky Games & Novelties | 713 Monroe St, La Porte, IN 46350 | ~11 | Board games | n/c | No | No | n/c | n/c | <https://www.lgsfinder.org/indiana/la-porte> | guess |
@@ -160,7 +172,7 @@ Bridgman (23.8 mi), Porter, Westville (11.5 mi). "No store found" means none app
 the Ravensburger API, the Konami PDF, or the directories searched. It does not rule out a shop with no web
 presence.
 
-**Disconfirming check:** Directory listings (indianatcg.com, lgsfinder.org) are aggregators of mixed quality and can list closed or misclassified businesses. The Hi5 Cards result that surfaced for Michigan City is a Bloomington, IN business (<https://hi5cardsandcollectiblesin.com/>; the domain no longer resolved on 2026-09-30) and was excluded. The Gaming Geeks (2356 N Wozniak Rd, Michigan City) makes tabletop art and accessories and is not a card retailer (<https://www.thegaminggeeks.net/>); excluded.
+**Disconfirming check:** Directory listings (indianatcg.com, lgsfinder.org) are aggregators of mixed quality and can list closed or misclassified businesses. The Hi5 Cards result that surfaced for Michigan City is a Bloomington, IN business (<https://hi5cardsandcollectiblesin.com/>; the domain did not resolve on 2026-09-30) and was excluded. The Gaming Geeks (2356 N Wozniak Rd, Michigan City) makes tabletop art and accessories and is not a card retailer (<https://www.thegaminggeeks.net/>); excluded.
 
 ## Is Michigan City underserved, or too small to support a better shop?
 

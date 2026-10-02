@@ -1,6 +1,16 @@
 # Online-Only TCG Selling from Indiana: Fees, Shipping, Competition, Supply, and Legal Setup
 
-> Last updated: 2026-10-01
+> Last updated: 2026-10-02
+
+## Summary
+
+Selling cards online from Indiana costs 11% to 15% in marketplace fees before
+postage: a $100 single nets $78.81 on TCGplayer after fees and postage. New TCGplayer sellers start
+capped at 100 items and $1,000 listed, and new registration may be paused. An
+online-only seller gets no distributor account and competes on price against
+198 to 263 listings on popular cards, so its margin comes only from buying
+below market. Indiana tax setup is light for marketplace-only sales, and
+Michigan City's home-occupation zoning bars retail sales at a home.
 
 ## Headline, pessimistic first
 

@@ -1,9 +1,20 @@
 # Storefront Costs and Local Demand: TCG and Sports Card Store
 
-> Last updated: 2026-10-01
+> Last updated: 2026-10-02
 > Scope: who buys, how much space, what it costs to open and run. Sports-card
 > distribution and the card market itself sit in [sports-cards.md](sports-cards.md)
 > and [category-and-unit-economics.md](category-and-unit-economics.md), not here.
+
+## Summary
+
+The core trade area (Michigan City, New Buffalo, Three Oaks) holds 50,625
+residents, about 5,500 of them aged 8 to 17, and card-store demand is resident,
+not tourist. A store seating 20 to 40 players needs 1,000 to 1,500 sq ft, and
+available inline space on Franklin Street asks $6.50 to $10.00/sq ft/yr.
+Opening costs run $64,236 to $198,752 including six months of fixed costs, and
+more than half of that total rests on guesses. Theft is a real cost: regional
+card stores lost $5,000 to $340,000 per incident. The owner works 45 to 60
+hours a week in a one-employee store.
 
 **Headline, pessimistic first.** Opening costs run $64,200 to $198,800
 (estimate, table below), and guesses make up $33,600 to $118,900 of that. A
@@ -13,7 +24,7 @@ shop (Heroes Haven, 296-A E US Hwy 20) and a video game store (Game Changers,
 monthly at the FOP lodge. Neither store appears on a publisher store locator
 ([competition.md](competition.md)). The resident youth base in the core trade
 area comes to about 5,500 children aged 8 to 17 (estimate). Rent is the one line
-that came in cheaper than the earlier frozen-yogurt study feared: existing small
+that came in cheaper than a separate frozen-yogurt study assumed: existing small
 inline space asks $6.50 to $10.00/sqft/yr on available listings; a $12.00 ask
 went under contract in 2025.
 
@@ -59,7 +70,7 @@ key, so the figures did not come from census.gov directly.
 sums ACS brackets 18-19 through 35-39; ACS has no 40 cut, so "18-40" here means
 18-39.
 
-**Cross-check against the earlier frozen-yogurt study ([market-demographics.md](https://github.com/ernieayala/froyo/blob/main/research/market-demographics.md)).** That file carried
+**Cross-check against a separate frozen-yogurt study ([market-demographics.md](https://github.com/ernieayala/froyo/blob/main/research/market-demographics.md)).** That file carried
 31,814 residents and $53,089 median income as `sourced` from aggregators
 (retrieved 2026-08-04). ACS 2024 5-year returns the same 31,814 and $53,089, so the two figures
 now trace to the primary table.
@@ -143,7 +154,7 @@ found. The reasoning is structural, not measured.
 **Source:** Structure of event play as described by the operators themselves:
 NWI Cards lists "weekly locals, tournaments, prereleases"
 (<https://www.nwicards.com/pages/visit>, retrieved 2026-09-30). Tourism context:
-the earlier frozen-yogurt study ([tourism-seasonality.md](https://github.com/ernieayala/froyo/blob/main/research/tourism-seasonality.md)) (NPS annual visits, 2,629,497 in CY 2025,
+a separate frozen-yogurt study ([tourism-seasonality.md](https://github.com/ernieayala/froyo/blob/main/research/tourism-seasonality.md)) (NPS annual visits, 2,629,497 in CY 2025,
 retrieved 2026-08-04, `fact`).
 **Retrieved:** 2026-09-30
 
@@ -279,7 +290,7 @@ listing page, each fetched directly.
 | 4301 Franklin St (Lake Park Plaza) | 1,400-15,000 sf | price on request | | EDC contact Clarence Hulse 219-873-1211 | <https://properties.zoomprospector.com/northwestin/property/4301-Franklin-St--Michigan-City-Indiana/DECD70DF-62B4-45EA-9E83-5C3A436420BA> (updated 2026-01-02) |
 | 5330 Franklin St | 1,360 sf | price on request | | | CommercialSearch, as above |
 
-**Comparison with the earlier frozen-yogurt study ([operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md)).** That file recorded LoopNet's
+**Comparison with a separate frozen-yogurt study ([operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md)).** That file recorded LoopNet's
 $9.67/sqft average for Michigan City retail (retrieved 2026-08-04) as a `guess`,
 on the grounds that a pool dominated by large boxes misstates small-space rent.
 The direct listings show older small inline space asking $6.50 to $12.00, which
@@ -309,7 +320,7 @@ siting question to decide on purpose, not by default.
 ## 7. Which cost lines from a food business drop out?
 
 **Finding:** A card store is mercantile (group M) retail with no food service.
-It removes the food-specific lines from the earlier frozen-yogurt study's cost
+It removes the food-specific lines from a separate frozen-yogurt study's cost
 checklist and adds security and inventory-insurance lines a food shop does not
 need.
 
@@ -464,7 +475,7 @@ nearest documented case is in Chesterton, 11.0 miles straight-line
   third bagged it. Value about $5,000. Date reported as 2023-11-29. WGN,
   <https://wgntv.com/northwest-indiana/police-search-for-group-spotted-stealing-5k-worth-of-trading-cards-from-chesterton-game-shop/>
   returned 403; details come from the search-result summary of that article.
-  The Chesterton Tribune copy now redirects to an unrelated site.
+  The Chesterton Tribune copy redirected to an unrelated site on 2026-09-30.
 - **Indianapolis, Grandmaster Games, 4200 S East St, 2026-05-08, about 5:45am.**
   Break-in; the masked suspect went for display cases, skipped the registers,
   and took graded slabs worth $10,000 to $15,000. WRTV,
@@ -520,7 +531,7 @@ City-La Porte, May 2025," released Friday 2026-07-10,
 | All occupations, mean | | | | | $26.16 |
 
 This release supersedes the May 2024 food-service figure in
-the earlier frozen-yogurt study ([operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md)), which was 27 months old. The regional release
+a separate frozen-yogurt study ([operating-costs.md](https://github.com/ernieayala/froyo/blob/main/research/operating-costs.md)), which was 27 months old. The regional release
 reports sales and related occupations at $20.87/hr mean; that group includes
 higher-paid sales roles and overstates a counter wage.
 

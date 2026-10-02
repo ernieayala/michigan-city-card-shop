@@ -1,6 +1,18 @@
 # Distribution and Publisher Access for Sealed TCG Product
 
-> Last updated: 2026-10-01
+> Last updated: 2026-10-02
+
+## Summary
+
+A physical store can open distributor accounts in 3 to 10 business days with
+storefront photos, a resale certificate and a play area. An online-only seller
+cannot, and every publisher store program requires a storefront. The hard part
+is popular product: distributors allocate it by purchase history and event
+activity, so a new store gets little (one hobby store received a single Elite
+Trainer Box of Pokémon's 30th Celebration set). Buying sealed product on
+TCGplayer to fill the gap earns 9.1% at market price in a store and loses
+$10.01 a box resold online. No source gives the discount a new store pays off
+list price; a distributor call is the first open question.
 
 ## Headline
 
@@ -131,7 +143,7 @@ Other terms: pre-screen survey, then application with resale certificates; 3 to 
 **Source:** <https://www.phdgames.com/pre-qualification-application/> ; <https://www.phdgames.com/faqs/>
 **Retrieved:** 2026-09-30
 
-Pre-qualification needs 5 photos including "the open play area where you host events/tournaments," plus a utility bill or lease. FAQ: minimum order $400 for gaming items; new retailers pay by credit card; terms need "one year of business banking history and 6 months of buying history from PHD." Free ground shipping at $750 from one warehouse. "Wholesale discounts are usually calculated based off of the SRP… The discount varies depending on several factors." No discount figure published. A search snippet said PHD had paused all new gaming accounts until "the fall"; the page fetched today did not show that line. Not verified.
+Pre-qualification needs 5 photos including "the open play area where you host events/tournaments," and a utility bill or lease. FAQ: minimum order $400 for gaming items; new retailers pay by credit card; terms need "one year of business banking history and 6 months of buying history from PHD." Free ground shipping at $750 from one warehouse. "Wholesale discounts are usually calculated based off of the SRP… The discount varies depending on several factors." No discount figure published. A search snippet said PHD had paused all new gaming accounts until "the fall"; the page fetched today did not show that line. Not verified.
 
 **Disconfirming check:** None of PHD's pages suggests an online-only exception.
 

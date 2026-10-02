@@ -1,6 +1,17 @@
 # Sports Cards: Licensing, Supply Access, Margins, and Risk
 
-> Last updated: 2026-10-01
+> Last updated: 2026-10-02
+
+## Summary
+
+Topps holds the MLB, NBA and NFL licenses and is not opening direct accounts to
+new shops. Panini requires six months open, 40 or more hours a week and sports
+cards at 70% of sales. Upper Deck's hockey program admits a new storefront, but
+Southern Hobby will not supply a new account. Popular licensed product trades
+above list price, so a store without an account buys at secondary prices: a
+$99.99 hobby box cost $209.95. Sports-card grading fell 12% in 2025 while TCG
+grading rose 95%, and box breaks face lottery claims in California. For a new
+store, sports cards work as a singles line, not a sealed one.
 
 Scope: the sports-card side of a proposed card shop in Michigan City, Indiana (storefront or Indiana-based online-only). TCG distribution, TCG economics, local competition, marketplace fees, and storefront costs belong to other research files.
 
@@ -302,7 +313,7 @@ High-end singles recovering does not mean sealed product at a small shop is prof
 
 PSA graded 19.26M (71.8% share); PSA sports grading up 2%. TCG graded at about 2:1 vs sports.
 
-**Contradicting sources:** cllct reports 26.6M total (<https://www.cllct.com/sports-collectibles/sports-cards/major-authenticators-graded-more-than-26-million-cards-in-2025>, not opened; now returns HTTP 404).
+**Contradicting sources:** cllct reports 26.6M total (<https://www.cllct.com/sports-collectibles/sports-cards/major-authenticators-graded-more-than-26-million-cards-in-2025>, not opened; returned HTTP 404 on 2026-09-30).
 
 ### Toy-industry and marketplace data
 

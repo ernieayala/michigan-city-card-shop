@@ -1,6 +1,17 @@
 # TCG Category Health and Small Game Store Unit Economics
 
-> Last updated: 2026-10-01
+> Last updated: 2026-10-02
+
+## Summary
+
+US and Canada hobby game sales reached $3.66B in 2025, up 29% to 32% after two
+flat years, and trading card games are about two thirds of it. Part of that is
+speculation: Lorcana sales fell once investment buyers left, and Special
+Illustration singles from Pokémon's 30th Celebration set fell 40% to 50% soon
+after release. The only store margins found come from one store owner: 27% to
+35% on sealed product and 45% to 50% on singles. November and December carry
+about 27% of yearly sales in the closest national series. No card-store failure
+rate exists; all retail survives at about 60% after five years.
 
 Scope: desk research only. No store owner, distributor, or publisher has been contacted. Every
 figure below was retrieved 2026-09-30 unless marked otherwise. Several primary PDFs (Konami, Bandai
