@@ -1,23 +1,24 @@
 # Card Shop Feasibility: Michigan City
 
-> Last updated: 2026-10-02
+> Last updated: 2026-10-03
 > Status: desk research only. No phone calls, no site visits, no distributor
 > quotes, no customer counts.
 
 ## Summary
 
-The card store can start small and grow in stages, owned through a Wyoming
-parent LLC with an Indiana LLC running the store. Buying and selling at card
-shows and online costs $11,775 to $21,775 to start. A lean 858 sq ft store with
-20 seats, 80% trading card games and 20% sports cards, and events most nights
-costs $39,278 to $52,614 to open. Both stages together come to about $46,500 at
-the minimum and about $65,900 at the full level. For scale, the research prices
-a full-size store built from scratch at $64,236 to $198,752. With the owner and
-a partner unpaid for six months, the lean store breaks even at about $6,300 a
-month in sales and needs about $23,400 to pay both people: 92% of the area's
-estimated card spending at the 2025 peak, and more than all of it at the 2024
-level. Online-only selling has no wholesale supply, and sports cards have no
-direct supply for a new store. See the [storefront plan](storefront-plan.md).
+The card store can start small and grow in stages. Two co-owners run it with
+no employees, through a Wyoming parent LLC that owns the Indiana LLC running the
+store. Buying and selling at card shows and online costs $11,775 to $21,775 to
+start. A lean 858 sq ft store with 20 seats, 80% trading card games and 20%
+sports cards, events most nights, and online sales on TCGplayer, eBay and
+Whatnot costs $40,470 to $44,874 to open. Both stages together come to about
+$47,200 to $61,200. For scale, the research prices a full-size store built from
+scratch at $64,236 to $198,752. The lean store breaks even at about $6,800 a
+month in sales; splitting $3,000 a month of profit takes about $19,800, and
+splitting $6,000 takes more than the area's estimated card spending, so the
+upper levels depend on online sales. Online-only selling has no wholesale
+supply, and sports sealed product has no direct supply for a new store, so the
+store buys it from online retailers. See the [storefront plan](storefront-plan.md).
 
 ## About this research
 
@@ -47,8 +48,8 @@ a date, and a confidence tier.
    make up 52% to 60% of the total; TCG inventory ($20,000 to $50,000) and
    build-out ($5,000 to $25,000) are the two largest. The
    [storefront plan](storefront-plan.md) starts with shows and online selling
-   for $11,775 to $21,775, then opens a smaller store for $39,278 to $52,614 by
-   cutting space, staff and opening stock.
+   for $11,775 to $21,775, then opens a smaller store for $40,470 to $44,874 by
+   cutting space and opening stock.
 2. **Online-only costs the least and has no wholesale supply.** Southern Hobby
    and PHD refuse online-only applicants in writing, GTS excludes residences and
    pop-ups from its store-only lines, and every publisher store program found
@@ -59,7 +60,7 @@ a date, and a confidence tier.
    ([online and legal](research/online-and-legal.md), section 1.8, estimate).
    TCGplayer's help center logged a pause on new seller registration on
    2026-07-20; whether it has lifted is unknown (section 1.3).
-3. **Sports cards cannot be a main line at opening.** Topps holds MLB, NBA and
+3. **Sports cards have no direct sealed supply for a new store.** Topps holds MLB, NBA and
    NFL (sourced; NFL fact) and is not taking new direct accounts: "At this time,
    there is no alternative application process or route available"
    (fanaticscollectpro.com, 2026-09-30, fact). Southern Hobby gives new
@@ -115,7 +116,7 @@ same site.
 | Hot-product allocation | Starts near zero, grows with history | No path |
 | Sports hobby accounts | Topps closed; Panini after 6 months at 70% sports; Upper Deck program open but Southern Hobby will not supply | None |
 | Pricing power | Events, same-day purchase, local trust | Price taker: 198 to 263 competing listings on sampled popular cards |
-| Opening cost | $39,278 to $52,614 for the lean store (plan); $64,236 to $198,752 full-size (research estimate) | Low; inventory is the cost |
+| Opening cost | $40,470 to $44,874 for the lean store (plan); $64,236 to $198,752 full-size (research estimate) | Low; inventory is the cost |
 | Local rules | Second exit likely needed above 49 occupants | City home-occupation zoning bars "retail sales activities" at a home |
 
 ## Plan
@@ -126,12 +127,12 @@ and grows into an 80% TCG, 20% sports store in three stages:
 | Stage | What it is | Cost to start | Moves on when |
 |-------|------------|--------------:|---------------|
 | 1. Shows and online | Buy collections, sell at card shows and online; no lease | $11,775 to $21,775 | All nine gates pass |
-| 2. Lean store | 858 sq ft, 20 seats, events most nights | $39,278 to $52,614, less credit for stage 1 cards | Sales stay above $11,558 a month with the partner paid |
-| 3. Grow | More stock, staff hours or a larger space | Step by step, from $19,769 of added stock | n/a |
+| 2. Lean store | 858 sq ft, 20 seats, events most nights, online sales | $40,470 to $44,874, less credit for stage 1 cards | Sales stay above break-even, $6,786 a month |
+| 3. Grow | Stock that produces profit to split, then a larger space | $22,719 of added stock for each $3,000 a month of profit | n/a |
 
-With the owner and a partner unpaid for six months, break-even is $6,290 a
-month in sales; paying the partner raises it to $11,558, and paying both to
-$23,359. A Wyoming parent LLC owns the Indiana LLC that runs the store. Nine
+Two co-owners run the store with no employees. Break-even is $6,786 a month in
+sales; splitting $3,000 a month of profit takes $19,811, and $6,000 takes
+$32,836. A Wyoming parent LLC owns the Indiana LLC that runs the store. Nine
 checks (gates) must pass before any lease is signed.
 
 ## Research files
@@ -163,7 +164,7 @@ checks (gates) must pass before any lease is signed.
 | 3 | What does the monthly card show sell, at what prices, and who tried a card store here before? | Attend the FOP Lodge show on 2026-10-17; ask the organizer listed on treasurehunter.show (219-229-0411) about past shops | Whether the show already absorbs local demand |
 | 4 | What do local shops charge against TCGplayer and list price? | The 10-SKU same-day price survey in [competition](research/competition.md) | The pricing gap the entry case rests on |
 | 5 | Which stores run Pokémon and One Piece events within 25 miles? | Pokémon Event Locator and Bandai TCG+ in a browser (both blocked automated access) | Whether the youth-event gap exists |
-| 6 | What does inventory insurance with burglary coverage cost at the plan's opening stock (about $10,500 to $26,000) and at $50,000 to $100,000 for a full-size store? | Two broker quotes | The largest tail risk |
+| 6 | What does inventory insurance with burglary coverage cost at the plan's opening stock (about $12,000 to $21,000 with stage 1 singles) and at $50,000 to $100,000 for a full-size store? | Two broker quotes | The largest tail risk |
 | 7 | What are triple-net charges on candidate bays, and does a bay have a second exit? | Bradley Company (219-508-0554), EDC Michigan City (219-873-1211), city planning (219-873-1419) | The rent line and the event cap |
 
 ## What this research did not do
