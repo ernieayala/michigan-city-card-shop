@@ -1,6 +1,6 @@
 # Card Shop Feasibility: Michigan City
 
-> Last updated: 2026-10-03
+> Last updated: 2026-10-04
 > Status: desk research only. No phone calls, no site visits, no distributor
 > quotes, no customer counts.
 
@@ -126,14 +126,14 @@ and grows into an 80% TCG, 20% sports store in three stages:
 
 | Stage | What it is | Cost to start | Moves on when |
 |-------|------------|--------------:|---------------|
-| 1. Shows and online | Buy collections, sell at card shows and online; no lease | $11,775 to $21,775 | All nine gates pass |
+| 1. Shows and online | Buy collections, sell at card shows and online; no lease | $11,775 to $21,775 | Four checks done: lease and code, quotes, co-owner and LLC setup, distributor cost |
 | 2. Lean store | 858 sq ft, 20 seats, events most nights, online sales | $40,470 to $44,874, less credit for stage 1 cards | Sales stay above break-even, $6,786 a month |
 | 3. Grow | Stock that produces profit to split, then a larger space | $22,719 of added stock for each $3,000 a month of profit | n/a |
 
 Two co-owners run the store with no employees. Break-even is $6,786 a month in
 sales; splitting $3,000 a month of profit takes $19,811, and $6,000 takes
-$32,836. A Wyoming parent LLC owns the Indiana LLC that runs the store. Nine
-checks (gates) must pass before any lease is signed.
+$32,836. A Wyoming parent LLC owns the Indiana LLC that runs the store. The
+owners do not need income from the store, so profit goes back into stock.
 
 ## Research files
 
