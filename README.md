@@ -9,14 +9,15 @@
 The card store can start small and grow in stages. Two co-owners run it with
 no employees, through a Wyoming parent LLC that owns the Indiana LLC running the
 store. Buying and selling at card shows and online costs $11,775 to $21,775 to
-start. A lean 858 sq ft store with 20 seats, 80% trading card games and 20%
-sports cards, events most nights, and online sales on TCGplayer, eBay and
-Whatnot costs $40,470 to $44,874 to open. Both stages together come to about
-$47,200 to $61,200. For scale, the research prices a full-size store built from
-scratch at $64,236 to $198,752. The lean store breaks even at about $6,800 a
-month in sales; splitting $3,000 a month of profit takes about $19,800, and
-splitting $6,000 takes more than the area's estimated card spending, so the
-upper levels depend on online sales. Online-only selling has no wholesale
+start. A lean 858 sq ft store with 20 seats, built on buying collections and
+selling singles (55% of sales), about three quarters trading card games and a
+quarter sports cards, with events most nights and online and live sales, costs
+$39,633 to $44,037 to open. Both stages together come to about $46,400 to
+$59,600. For scale, the research prices a full-size store built from scratch at
+$64,236 to $198,752. The lean store breaks even at about $6,400 a month in
+sales; splitting $3,000 a month of profit takes about $18,700, and splitting
+$6,000 takes about all of the area's estimated card spending, so the upper
+levels depend on online sales. Online-only selling has no wholesale
 supply, and sports sealed product has no direct supply for a new store, so the
 store buys it from online retailers. See the [storefront plan](storefront-plan.md).
 
@@ -48,7 +49,7 @@ a date, and a confidence tier.
    make up 52% to 60% of the total; TCG inventory ($20,000 to $50,000) and
    build-out ($5,000 to $25,000) are the two largest. The
    [storefront plan](storefront-plan.md) starts with shows and online selling
-   for $11,775 to $21,775, then opens a smaller store for $40,470 to $44,874 by
+   for $11,775 to $21,775, then opens a smaller store for $39,633 to $44,037 by
    cutting space and opening stock.
 2. **Online-only costs the least and has no wholesale supply.** Southern Hobby
    and PHD refuse online-only applicants in writing, GTS excludes residences and
@@ -116,23 +117,23 @@ same site.
 | Hot-product allocation | Starts near zero, grows with history | No path |
 | Sports hobby accounts | Topps closed; Panini after 6 months at 70% sports; Upper Deck program open but Southern Hobby will not supply | None |
 | Pricing power | Events, same-day purchase, local trust | Price taker: 198 to 263 competing listings on sampled popular cards |
-| Opening cost | $40,470 to $44,874 for the lean store (plan); $64,236 to $198,752 full-size (research estimate) | Low; inventory is the cost |
+| Opening cost | $39,633 to $44,037 for the lean store (plan); $64,236 to $198,752 full-size (research estimate) | Low; inventory is the cost |
 | Local rules | Second exit likely needed above 49 occupants | City home-occupation zoning bars "retail sales activities" at a home |
 
 ## Plan
 
 The [storefront plan](storefront-plan.md) starts with shows and online selling
-and grows into an 80% TCG, 20% sports store in three stages:
+and grows into a singles-led TCG and sports store in three stages:
 
 | Stage | What it is | Cost to start | Moves on when |
 |-------|------------|--------------:|---------------|
 | 1. Shows and online | Buy collections, sell at card shows and online; no lease | $11,775 to $21,775 | Four checks done: lease and code, quotes, co-owner and LLC setup, distributor cost |
-| 2. Lean store | 858 sq ft, 20 seats, events most nights, online sales | $40,470 to $44,874, less credit for stage 1 cards | Sales stay above break-even, $6,786 a month |
-| 3. Grow | Stock that produces profit to split, then a larger space | $22,719 of added stock for each $3,000 a month of profit | n/a |
+| 2. Lean store | 858 sq ft, 20 seats, events most nights, online sales | $39,633 to $44,037, less credit for stage 1 cards | Sales stay above break-even, $6,417 a month |
+| 3. Grow | Stock that produces profit to split, then a larger space | $21,113 of added stock for each $3,000 a month of profit | n/a |
 
-Two co-owners run the store with no employees. Break-even is $6,786 a month in
-sales; splitting $3,000 a month of profit takes $19,811, and $6,000 takes
-$32,836. A Wyoming parent LLC owns the Indiana LLC that runs the store. The
+Two co-owners run the store with no employees. Break-even is $6,417 a month in
+sales; splitting $3,000 a month of profit takes $18,735, and $6,000 takes
+$31,052. A Wyoming parent LLC owns the Indiana LLC that runs the store. The
 owners do not need income from the store, so profit goes back into stock.
 
 ## Research files

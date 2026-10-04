@@ -346,10 +346,11 @@ monthly average (estimate).
 
 These points are interpretation, built on the sections above:
 
-1. **Keep the store TCG-led, with sports as a real singles line.** The 80/20
-   mix in the [storefront plan](../storefront-plan.md) fits the evidence: TCG
-   is growing faster and carries the events, while sports singles are a large,
-   liquid pool on eBay and Whatnot. Sports money comes from singles, graded
+1. **Keep the store TCG-led, with sports as a real singles line.** TCG is
+   growing faster and carries the events, while sports singles are a large,
+   liquid pool on eBay and Whatnot; the
+   [storefront plan](../storefront-plan.md) sets its mix line by line on that
+   basis. Sports money comes from singles, graded
    rookies and vintage bought from the public, not from modern sealed boxes.
 2. **Tier the games by what each does best.** One Piece for sealed and events;
    Magic for singles turnover and events, buying sealed only to event demand;
