@@ -145,6 +145,7 @@ owners do not need income from the store, so profit goes back into stock.
 | [Online and legal](research/online-and-legal.md) | Marketplace fees, shipping, Indiana tax, city code, card shows | New TCGplayer sellers start capped at 100 items and $1,000 listed |
 | [Category and unit economics](research/category-and-unit-economics.md) | Market size, bust signals, margins, seasonality, failure rate | Anecdotal margins from one store, 2021 to 2023, re-check due: sealed 27% to 35% on normal releases, singles 45% to 50% |
 | [Sports cards](research/sports-cards.md) | Licenses, direct programs, formats, breaks, grading | Topps closed to new shops; box breaks face lottery claims in California |
+| [What sells in 2026](research/what-sells-2026.md) | TCG against sports, Pokémon's cooling, the other games, slabs against raw, turnover | Sports is the bigger eBay pool, TCG grows faster; new Pokémon sets fall to near list price within months; raw singles turn fastest |
 
 ## The owner's four observations, checked
 
