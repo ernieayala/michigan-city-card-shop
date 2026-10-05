@@ -1,6 +1,6 @@
 # Card Shop Feasibility: Michigan City
 
-> Last updated: 2026-10-04
+> Last updated: 2026-10-05
 > Status: desk research only. No phone calls, no site visits, no distributor
 > quotes, no customer counts.
 
@@ -135,6 +135,8 @@ Two co-owners run the store with no employees. Break-even is $6,417 a month in
 sales; splitting $3,000 a month of profit takes $18,735, and $6,000 takes
 $31,052. A Wyoming parent LLC owns the Indiana LLC that runs the store. The
 owners do not need income from the store, so profit goes back into stock.
+The [proposal](proposal.md) presents the plan to outside readers, with sales
+scenarios, owner pay and loan payments.
 
 ## Research files
 
@@ -172,9 +174,10 @@ owners do not need income from the store, so profit goes back into stock.
 ## What this research did not do
 
 - No distributor, landlord, insurer or shop owner was contacted.
-- No store's monthly sales were obtained. There is no revenue estimate, so no
-  monthly cash model and no low, base and high sales scenarios; the storefront plan gives
-  break-even points, not a sales forecast.
+- No store's monthly sales were obtained, so there is no sourced revenue
+  estimate. The storefront plan gives break-even points; the
+  [proposal](proposal.md)'s low, base and high scenarios are guesses anchored
+  on the area's estimated card spending.
 - Indiana statutes on secondhand and pawn dealers could not be retrieved.
 - Several figures are past the 18-month limit or rest on search snippets; each
   file's re-check schedule names them.

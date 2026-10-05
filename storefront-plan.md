@@ -1,6 +1,6 @@
 # Storefront Plan
 
-> Last updated: 2026-10-04
+> Last updated: 2026-10-05
 > Status: draft built from the seven research files and the owners' choices.
 > Quotes and local counts come next (section 2).
 
@@ -367,7 +367,11 @@ outside the area.
 ## 6. Stock and cash
 
 At five turns a year and a 71.4% cost ratio, $6,417 a month of sales needs
-6,417 x 12 x 0.7142 / 5 = $11,000 of stock at cost: the opening stock. Each
+6,417 x 12 x 0.7142 / 5 = $11,000 of stock at cost: the opening stock. Five
+turns is a guess: one store owner's rule ties five turns to a 45% margin
+([category and unit economics](research/category-and-unit-economics.md),
+section 3), and stage 1 measures the real rate. At four turns break-even needs
+$13,749 of stock; at three, $18,332. Each
 $3,000 a month of profit adds $12,317 a month of sales and $21,113 of stock.
 The operating cash covers three to six months of costs with no sales at all.
 

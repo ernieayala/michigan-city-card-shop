@@ -23,6 +23,11 @@ defaults:
       nav_order: 1
       permalink: /
   - scope:
+      path: proposal.md
+    values:
+      title: Proposal
+      nav_order: 1.5
+  - scope:
       path: storefront-plan.md
     values:
       title: Storefront plan
